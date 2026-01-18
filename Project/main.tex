@@ -1,0 +1,107 @@
+% Source: https://cog2025.inesc-id.pt/call-for-papers/ | Full papers have an 8-page limit in IEEE 2-column format (including references and appendices) and should constitute a technical or empirical contribution to scientific, technical, or engineering aspects of games.
+
+\documentclass[conference]{IEEEtran}
+\usepackage{float}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{todonotes}
+\usepackage{algorithmic}
+\usepackage[american]{babel}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{subcaption}
+\usepackage[%
+  backend=biber,
+  url=false,
+  style=numeric,
+  maxnames=4,
+  minnames=3,
+  maxbibnames=150,
+  giveninits,
+  uniquename=init]{biblatex}
+\usepackage[hidelinks]{hyperref} % hidelinks removes colored boxes around references and links
+
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+
+\makeatletter % changes the catcode of @ to 11
+\newcommand{\linebreakand}{%
+  \end{@IEEEauthorhalign}
+  \hfill\mbox{}\par
+  \mbox{}\hfill\begin{@IEEEauthorhalign}
+}
+\makeatother % changes the catcode of @ back to 12
+
+\addto\extrasamerican{
+	\def\lstnumberautorefname{Line}
+	\def\chapterautorefname{Chapter}
+	\def\sectionautorefname{Section}
+	\def\subsectionautorefname{Subsection}
+	\def\subsubsectionautorefname{Subsubsection}
+}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\bibliography{bibliography}
+\begin{document}
+
+\title{Impact of Demographics and User Personas on GUI Development}
+
+\author{
+ \IEEEauthorblockN{1\textsuperscript{st} Hoai Nam Ngo}
+    \IEEEauthorblockA{
+        \textit{Department of Computer Science} \\
+        \textit{Technical University of Munich} \\
+        Munich, Germany \\
+        ngothommy@gmail.com
+    }
+    \and
+    \IEEEauthorblockN{2\textsuperscript{nd} Klaudia Paździerz}
+    \IEEEauthorblockA{
+        \textit{Department of Computer Science} \\
+        \textit{Technical University of Munich} \\
+        Munich, Germany \\
+        pazdzierz.klaudia@gmail.com
+    }
+    \linebreakand
+    \IEEEauthorblockN{3\textsuperscript{rd} Nils Hothum}
+    \IEEEauthorblockA{
+        \textit{Department of Computer Science} \\
+        \textit{Technical University of Munich} \\
+        Munich, Germany \\
+        nils.hothum@tum.de
+    }
+    \and
+    \IEEEauthorblockN{4\textsuperscript{th} Alessandro Lo Muzio}
+    \IEEEauthorblockA{
+        \textit{Department of Computer Science} \\
+        \textit{Technical University of Munich} \\
+        Munich, Germany \\
+        ge42riy@tum.de
+    }
+}
+
+\maketitle
+
+\begin{abstract}
+This paper presents a structured literature review on how user personas and demographic factors influence graphical user interface (GUI) development. We systematically analyze existing research on persona-based design, demographic differences in user populations (e.g., age, expertise, and cultural background), and their reported impact on usability and user experience. The reviewed work shows that personas are widely used as tools for communication and design rationale, yet only a subset of studies empirically evaluates their contribution to improved GUI quality. Demographic factors are frequently acknowledged but are often treated superficially or inconsistently operationalized across studies. Based on our synthesis, we propose a conceptual framework that links personas, demographics, and GUI design decisions, identify gaps in current research (such as limited validation of personas and narrow demographic sampling), and outline implications and directions for future work in persona-driven, demographically aware GUI development.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Graphical User Interface (GUI) · User-Centered Design · Personas · User Experience (UX) · Software Engineering
+\end{IEEEkeywords}
+
+\input{01_Introduction}
+\input{02_Methodic}
+\input{03_Thematic Background: Personas and Demographics in GUI Design}
+\input{04_Findings from the Literature}
+\input{05_Discussion}
+
+\section*{Acknowledgment}
+We would like to thank Sidong Feng for supervising this project and providing valuable guidance on GUI design. We also thank the Chair of Software Engineering \& AI at TUM for providing course resources and support.
+
+
+\printbibliography
+
+\end{document}

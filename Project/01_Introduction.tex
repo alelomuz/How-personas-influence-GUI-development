@@ -1,0 +1,25 @@
+% !TeX root = ../main.tex
+
+\section{Introduction}
+With the growth of computers and the programs that accompany people in their everyday lives, the demands and expectations placed on graphical user interfaces (GUIs) have also increased. GUIs are the most visible interface between humans and software and strongly shape how intuitive and usable a system feels \cite{rodriguez2022prototype}. However, GUIs are also one of the most common places where systems unintentionally exclude user groups, especially when accessibility constraints are not considered early \cite{world2008web}. Many interfaces are designed for the ``standard user'' in the hope of covering the optimum for as large a group of people as possible, even though actual use is characterized by large differences in age, abilities, cultural context, and experience \cite{clemmensen2009cultural,atata2025designing}.
+
+This demographic diversity affects interaction efficiency, error frequency, and cognitive load, and it can determine whether a system is accessible at all \cite{wagner2014impact,gomez2023design}. To address this complexity, development teams often structure user needs using personas. Against this background, this literature review examines what evidence research provides on the influence of demographic factors on GUI design, how personas are conceptualized and evaluated, and which approaches are suitable for consistently combining both perspectives in GUI development.
+
+\subsection{Complementary Roles of Demographics and Personas in GUI Development}
+Demographic characteristics and personas address two complementary perspectives on users. Demographic data primarily provide insights at the population level: they show how restrictions (e.g., perception, motor skills) and needs differ between user groups and motivate minimum requirements for accessibility and usability \cite{world2008web,clemmensen2009cultural}. This view provides important context, but it is often too broad to guide specific design decisions. Categories such as ``65+'' or ``visual impairment'' do not explain which goals dominate, which tasks are relevant in everyday life, or in which context an interface is actually used.
+
+Personas are commonly used to translate abstract differences into user archetypes that describe typical \textbf{goals, tasks} and \textbf{usage contexts} of a target group \cite{pruitt2003personas}. They help development teams align design decisions with specific needs rather than focusing on the supposed ``average user.'' At the same time, personas are criticized when they are created without an empirical basis and instead rely on stereotypes or personal assumptions \cite{howard2015personas}. Combining both approaches reduces these weaknesses: demographic evidence can ground personas (e.g., ensuring coverage of relevant constraints), while personas operationalize demographic insights for concrete design decisions \cite{salminen2021survey}.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.75\linewidth]{figures/Demographics-vs-personas.png}
+  \caption{Demographics provide population-level constraints, while personas capture goals, tasks, and usage context.}
+  \label{fig:persona-demo}
+\end{figure}
+
+\subsection{Research Questions}
+\begin{itemize}
+    \item \textbf{RQ 1:} Which demographic factors are associated with UI/usability effects in the literature, and what GUI implications are derived from this?
+    \item \textbf{RQ 2:} What types of personas (classic, data-driven, inclusive/persona spectrum) are described in the literature, and what evidence exists for their benefits and limitations?
+    \item \textbf{RQ 3:} What approaches do studies/guidelines suggest for consistently integrating demographic findings and personas into GUI decisions?
+\end{itemize}
