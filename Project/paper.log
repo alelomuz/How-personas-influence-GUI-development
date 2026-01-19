@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.2)  19 JAN 2026 19:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.2)  19 JAN 2026 19:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -233,7 +233,8 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ) (/Users/alelomuz/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count306
-) (./paper.aux)
+)
+No file paper.aux.
 \openout1 = `paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -250,7 +251,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
-
 -- Lines per column: 56 (exact).
 (/Users/alelomuz/Library/TinyTeX/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -279,10 +279,30 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
  (/Users/alelomuz/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/Users/alelomuz/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}
+)
+
+LaTeX Warning: Reference `AA' on page 1 undefined on input line 125.
 
 
-] (./paper.bbl)
+LaTeX Warning: Reference `AA' on page 1 undefined on input line 150.
+
+[1{/Users/alelomuz/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}
+
+
+] (./paper.bbl
+
+./paper.bbl:23: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \end{thebibliography}
+                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -301,17 +321,21 @@ Before submitting the final camera ready copy, remember to:
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 4197 strings out of 469476
- 65823 string characters out of 5467625
- 481931 words of memory out of 5000000
- 32818 multiletter control sequences out of 15000+600000
- 666362 words of font info for 115 fonts, out of 8000000 for 9000
+ 4192 strings out of 469476
+ 65763 string characters out of 5467625
+ 481901 words of memory out of 5000000
+ 32816 multiletter control sequences out of 15000+600000
+ 665226 words of font info for 114 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  57i,11n,65p,638b,348s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (2 pages, 70393 bytes).
+Output written on paper.pdf (2 pages, 69318 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream

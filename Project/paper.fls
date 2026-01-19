@@ -95,9 +95,6 @@ INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.lt
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./paper.aux
-INPUT ./paper.aux
-INPUT paper.aux
 OUTPUT paper.aux
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -162,9 +159,6 @@ INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tf
 INPUT ./paper.bbl
 INPUT ./paper.bbl
 INPUT paper.bbl
-INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
-INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
-INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT paper.aux
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
