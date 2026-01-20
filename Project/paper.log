@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.20)  20 JAN 2026 13:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.20)  20 JAN 2026 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -362,15 +362,19 @@ Package pdftex.def Info: figures/Demographics-vs-personas.png  used on input li
 ne 135.
 (pdftex.def)             Requested size: 189.0pt x 189.28041pt.
 
-
-LaTeX Warning: Reference `AA' on page 2 undefined on input line 163.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-(./paper.bbl)
+
+
+[2 <./figures/Demographics-vs-personas.png>]
+
+LaTeX Warning: Reference `AA' on page 3 undefined on input line 211.
+
+(./paper.bbl
+
+)
 
 ! LaTeX Error: Environment comment undefined.
 
@@ -378,7 +382,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.171 \begin{comment}
+l.219 \begin{comment}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -391,7 +395,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.175 \end{comment}
+l.223 \end{comment}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -410,7 +414,7 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[2 <./figures/Demographics-vs-personas.png>] (./paper.aux)
+[3] (./paper.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -433,10 +437,10 @@ Here is how much of TeX's memory you used:
 l/texlive/2025/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive
 /2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (2 pages, 283833 bytes).
+Output written on paper.pdf (3 pages, 288307 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
