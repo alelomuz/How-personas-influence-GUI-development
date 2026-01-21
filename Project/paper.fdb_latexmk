@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex paper"] 1768996384.7322 "paper.aux" "paper.bbl" "paper" 1768996387.7973 0
+["bibtex paper"] 1769018247.66038 "paper.aux" "paper.bbl" "paper" 1769018351.95471 0
   "./IEEEtran.bst" 1767436565.86117 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
   "./references.bib" 1768913068.58353 2977 d1a41c1843b865840855a9c464adbe36 ""
-  "paper.aux" 1768996387.74452 3339 60b9141c91449e832cb2a0059891664c "pdflatex"
+  "paper.aux" 1769018351.90327 3901 d256778a57b2237263be060c0127ca8c "pdflatex"
   (generated)
   "paper.bbl"
   "paper.blg"
   (rewritten before read)
-["pdflatex"] 1768996387.52122 "/Users/alelomuz/Documents/How-personas-influence-GUI-development/Project/paper.tex" "paper.pdf" "paper" 1768996387.79743 0
-  "/Users/alelomuz/Documents/How-personas-influence-GUI-development/Project/paper.tex" 1768996387.3541 12617 35b8f845df6539aaf2a44ee767a8d3f9 ""
+["pdflatex"] 1769018351.68879 "/Users/alelomuz/Documents/How-personas-influence-GUI-development/Project/paper.tex" "paper.pdf" "paper" 1769018351.95484 0
+  "/Users/alelomuz/Documents/How-personas-influence-GUI-development/Project/paper.tex" 1769018351.4948 14788 08f2019fc5128b0b8057e0253ad4b927 ""
   "/Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm" 1136768653 4524 6bce29db5bc272ba5f332261583fee9c ""
@@ -84,9 +84,9 @@
   "IEEEtran.cls" 1767378394.95609 288304 b67b6fc6c2abb39f9b461923f5199343 ""
   "algorithmic.sty" 1767387188.83333 9318 793e9d5a71e74e730d97f6bf5d7e2bca ""
   "figures/Demographics-vs-personas.png" 1768931967.31999 262242 4060514ee4127668daf9aeff73e05046 ""
-  "paper.aux" 1768996387.74452 3339 60b9141c91449e832cb2a0059891664c "pdflatex"
-  "paper.bbl" 1768996384.75027 2620 f760aaf2e8fe065b53647041e794277d "bibtex paper"
-  "paper.tex" 1768996387.3541 12617 35b8f845df6539aaf2a44ee767a8d3f9 ""
+  "paper.aux" 1769018351.90327 3901 d256778a57b2237263be060c0127ca8c "pdflatex"
+  "paper.bbl" 1769018247.68266 2620 f760aaf2e8fe065b53647041e794277d "bibtex paper"
+  "paper.tex" 1769018351.4948 14788 08f2019fc5128b0b8057e0253ad4b927 ""
   (generated)
   "paper.aux"
   "paper.log"
