@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.2)  20 JAN 2026 19:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.2)  21 JAN 2026 01:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -293,7 +293,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <figures/Demographics-vs-personas.png, id=11, 665.48625pt x 666.49pt>
 File: figures/Demographics-vs-personas.png Graphic file (type png)
 <use figures/Demographics-vs-personas.png>
-Package pdftex.def Info: figures/Demographics-vs-personas.png  used on input line 139.
+Package pdftex.def Info: figures/Demographics-vs-personas.png  used on input line 136.
 (pdftex.def)             Requested size: 189.0pt x 189.28041pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -325,7 +325,7 @@ Here is how much of TeX's memory you used:
  36 hyphenation exceptions out of 8191
  57i,11n,65p,1113b,348s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (3 pages, 287833 bytes).
+Output written on paper.pdf (3 pages, 287667 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream
