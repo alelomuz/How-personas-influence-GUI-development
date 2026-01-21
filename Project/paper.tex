@@ -120,30 +120,24 @@ The decision of how to structure the code, the logic and the visual layout is do
 Decisions of this kind strongly affect the system's abstraction levels and testing scope. While a robust architecture demands higher initial effort to design and implement, compared to a straightforward solution, it generally pays off in the long run, by making the product easier to maintain and scale.
 
 \subsection{Accessibility Decisions}
+A software product should be as accessible as possible to all users by design. Just as most museum entrances include wheelchair ramps beside the stairs, a GUI should be designed to accommodate as many users types and usage situations as possible.
+This is permitted by accounting for users with:
 
-
+\begin{itemize}
+  \item \textbf{Permanent impairments}, e.g. visual, auditory, motor, cognitive impairments
+  \item \textbf{Temporary impairments}, e.g. broken arm, wearing gloves
+  \item \textbf{Situational constraints}, e.g. bright sunlight, noisy environments, small screens
+  \item \textbf{Cognitive abilities}, e.g. low literacy, limited technical skills
+\end{itemize}
+Most of the solution patterns for accommodating these user groups are well-known and standardized in accessibility guidelines such as WCAG. Examples include providing keyboard navigation for users with motor impairments, using high-contrast color schemes for visually impaired users, and ensuring compatibility with screen readers. By implementing these features from the outset, designers can create interfaces that are inclusive.
 \subsection{Layout and Text Scaling Decisions}
-
+When designing a GUI’s layout and text scaling, it is essential to consider target demographics and user personas. Older users may struggle with small text or controls, while users access applications on a wide range of devices, including smartphones, tablets, and desktops. Therefore, analyzing where users come from and which devices they use is critical to optimizing the layout. During development, fixed-size elements should be avoided in favor of relative sizing units. A responsive layout that adapts to different screen sizes, supports zooming, accommodates large text, and resizes dynamically is crucial for ensuring accessibility and broad usability.
 \subsection{Platform and Technology Choices}
+One of the decisions most strongly influenced by demographics and user personas is the choice of platform and technology. If the target demographic consists primarily of mobile users, as in the case of Uber, it is sensible to focus on mobile platforms (iOS, Android) and corresponding technologies rather than a web-based solution. When performance requirements are moderate, cross-platform frameworks such as React Native, Flutter, or Xamarin can reduce development effort while reaching a broad audience. If high performance is critical, native development (Swift for iOS, Kotlin for Android) is often preferable to fully exploit device capabilities. Conversely, if the target demographic mainly uses desktop systems, prioritizing desktop platforms (Windows, macOS) and technologies such as Electron or WPF may provide a richer user experience. Overall, platform and technology choices directly affect usability, performance, and scalability of the GUI.
 
-
-
-
-
-
-
-The goal is to optimize the interface for the majority of the user population. This type of adaptation is especially powerful for characteristics that are relatively stable across users. It requires way less efforts compared to individual-level adaptation, since the GUI is designed once for a whole user group.
-
-% When to use population-level adaptation instead of individual-level adaptation
-There are a few scenarios where population-level adaptation is preferred over individual-level adaptation. Since such way of adaptation requires way less effort, in comparison to 
-
-
-
-
-
-\section{Impact of Demographics on GUI Design}
-% Alessandro
 \subsection{Country- and Region-Specific Requirements}
+All users in the same region are subject to the same rules. Therefore 
+
 % Klaudia
 \subsection{Age and Life Stage}
 % Klaudia
