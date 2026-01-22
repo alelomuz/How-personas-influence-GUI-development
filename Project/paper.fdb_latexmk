@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex paper"] 1769079214.76688 "paper.aux" "paper.bbl" "paper" 1769079363.9928 0
+["bibtex paper"] 1769083787.56344 "paper.aux" "paper.bbl" "paper" 1769083795.02304 0
   "./IEEEtran.bst" 1767436565.86117 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
   "./references.bib" 1768913068.58353 2977 d1a41c1843b865840855a9c464adbe36 ""
-  "paper.aux" 1769079363.93117 3776 63bd71b230e50b12d6f2c2a91b73854b "pdflatex"
+  "paper.aux" 1769083794.9725 4732 d07b990711e28bfd475fd749f8be99e5 "pdflatex"
   (generated)
   "paper.bbl"
   "paper.blg"
   (rewritten before read)
-["pdflatex"] 1769079363.71775 "/Users/alelomuz/Documents/How-personas-influence-GUI-development/Project/paper.tex" "paper.pdf" "paper" 1769079363.99292 0
-  "/Users/alelomuz/Documents/How-personas-influence-GUI-development/Project/paper.tex" 1769079363.37225 16981 29bb485cc7fb0aec1a47111e9afa22c5 ""
+["pdflatex"] 1769083794.70643 "/Users/alelomuz/Documents/How-personas-influence-GUI-development/Project/paper.tex" "paper.pdf" "paper" 1769083795.02316 0
+  "/Users/alelomuz/Documents/How-personas-influence-GUI-development/Project/paper.tex" 1769083694.66797 3324 167147e065053c29a9cfc321d2a9a207 ""
   "/Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm" 1136768653 4524 6bce29db5bc272ba5f332261583fee9c ""
@@ -84,9 +84,15 @@
   "IEEEtran.cls" 1767378394.95609 288304 b67b6fc6c2abb39f9b461923f5199343 ""
   "algorithmic.sty" 1767387188.83333 9318 793e9d5a71e74e730d97f6bf5d7e2bca ""
   "figures/Demographics-vs-personas.png" 1768931967.31999 262242 4060514ee4127668daf9aeff73e05046 ""
-  "paper.aux" 1769079363.93117 3776 63bd71b230e50b12d6f2c2a91b73854b "pdflatex"
-  "paper.bbl" 1769079214.78712 2620 f760aaf2e8fe065b53647041e794277d "bibtex paper"
-  "paper.tex" 1769079363.37225 16981 29bb485cc7fb0aec1a47111e9afa22c5 ""
+  "paper.aux" 1769083794.9725 4732 d07b990711e28bfd475fd749f8be99e5 "pdflatex"
+  "paper.bbl" 1769083787.58169 2943 f81b90c0910c07b20ec359ed79a755b0 "bibtex paper"
+  "paper.tex" 1769083694.66797 3324 167147e065053c29a9cfc321d2a9a207 ""
+  "sections/ai.tex" 1769083469.82917 3663 7e2047af1c1b47228cc3cc1aee95b7c7 ""
+  "sections/gui_demo_personas.tex" 1769083794.48734 2570 626ea93f22a77d0f31a1ad847f2bc972 ""
+  "sections/ind_lvl_adpt.tex" 1769082710.71245 314 9a64b0cf8c86888baf7975e8bdc2bb34 ""
+  "sections/intro.tex" 1769080748.45949 3113 de5a1e3ff242e244f058394cd275c4b4 ""
+  "sections/pop_lvl_adpt.tex" 1769082777.68811 4459 8c6f8fc837bfd31132b3ca871945f8f5 ""
+  "sections/prcs_val_infl.tex" 1769083404.95716 353 9ae3442d976a2857dded35f4997400ba ""
   (generated)
   "paper.aux"
   "paper.log"

@@ -1,0 +1,46 @@
+\subsection{AI-Assisted Development for Persona- and Demographic-Aware GUIs}
+\begin{itemize}
+  \item \textbf{Embedding personas and demographics into prompts:}
+  \begin{itemize}
+    \item AI coding assistants can be guided with explicit information about target personas (e.g., novice vs.\ expert users) and demographic constraints (e.g., older adults, users with visual impairments).
+    \item When prompts include these aspects, generated GUI code is more likely to reflect appropriate interaction complexity, font sizes, contrast, or navigation depth for the intended user groups.
+  \end{itemize}
+  \item \textbf{Operationalizing persona and demographic requirements in code:}
+  \begin{itemize}
+    \item AI can help translate high-level persona descriptions (goals, tasks, context) into concrete UI elements and interaction flows (e.g., simplified wizards for infrequent users, shortcut-heavy views for experts).
+    \item Demographic evidence (e.g., accessibility guidelines, age-related constraints) can be referenced explicitly in prompts so that the assistant proposes components that follow these constraints.
+  \end{itemize}
+  \item \textbf{Risk of generic, persona-blind suggestions:}
+  \begin{itemize}
+    \item Without explicit persona and demographic context, AI defaults to generic patterns that may primarily fit ``average'' or highly experienced users.
+    \item This can unintentionally marginalize critical user segments, such as older users or people with disabilities, even if personas for these groups exist in the project.
+  \end{itemize}
+\end{itemize}
+
+\subsection{Vibe Coding and the Role of Personas and Demographics}
+\begin{itemize}
+  \item \textbf{Vibe coding with persona-aware prompts:}
+  \begin{itemize}
+    \item During exploratory ``vibe coding'', developers can incorporate persona labels (e.g., ``design this view for an anxious first-time user'') and demographic cues (e.g., ``suitable for low-vision users on mobile'') directly in natural-language prompts.
+    \item This keeps rapid prototyping aligned with the defined user models instead of drifting towards purely aesthetic or developer-centric preferences.
+  \end{itemize}
+  \item \textbf{Danger of drifting away from user models:}
+  \begin{itemize}
+    \item If vibe coding relies only on generic prompts like ``modern dashboard'' or ``clean settings page'', AI-generated GUIs may ignore the specific needs of the personas and demographic groups identified earlier in the project.
+    \item Such drift makes it harder to justify design decisions with respect to user diversity and may contradict accessibility and inclusion goals.
+  \end{itemize}
+\end{itemize}
+
+\subsection{Limitations of AI for Persona- and Demographic-Sensitive GUIs}
+\begin{itemize}
+  \item \textbf{Lack of embedded user models:}
+  \begin{itemize}
+    \item Current AI tools do not maintain an internal, project-specific model of personas or demographic segments; they only react to what is stated in the prompt or visible in the code.
+    \item As a result, persona and demographic considerations can easily be lost once they are not explicitly mentioned in each interaction.
+  \end{itemize}
+  \item \textbf{Inconsistent alignment with guidelines:}
+  \begin{itemize}
+    \item Even when accessibility or demographic constraints are mentioned, AI suggestions may only partially follow relevant guidelines (e.g., WCAG) and still require manual review against persona and demographic requirements.
+    \item Over-reliance on AI-generated code increases the risk that subtle needs of certain personas (e.g., low digital literacy, anxiety, motor limitations) are overlooked.
+  \end{itemize}
+\end{itemize}

@@ -1,0 +1,19 @@
+\subsection{Graphical User Interface Development}
+% Definition and scope
+
+
+\subsection{User Demographics vs.\ Personas}
+Firstly it is important to distinguish these two terms, since Demographics and user personas capture two complementary perspectives on users in GUI development.
+
+\textbf{Demographics} provide a population-level view that is grounded in observable facts. Attributes such as age, abilities, cultural background, and prior experience reveal systematic differences in perception, motor skills, cognitive load, and typical usage situations\cite{world2008web, rodriguez2022prototype, clemmensen2009cultural, atata2025designing, salminen2021survey}. This evidence is essential for defining baseline requirements for usability and accessibility, for example regarding font sizes, color contrast, input modalities, or supported services. Several guidelines and standards, such as the Web Content Accessibility Guidelines (WCAG) and platform-specific human interface guidelines, explicitly build on such demographic and accessibility considerations to derive concrete design recommendations. However, demographic categories like ``65+'' or ``visually impaired'' remain coarse, as they do not specify concrete goals, everyday tasks, or the actual usage context of a system.
+
+\textbf{Personas} are used to translate such abstract differences into concrete user archetypes that describe typical goals, tasks, and contexts of a target group\cite{gomez2023design}. They help teams design for specific needs instead of an undefined ``average user'' and provide a shared reference for design decisions. However, personas are frequently criticized when they are created without empirical grounding and instead rely on stereotypes or personal assumptions\cite{wagner2014impact}.
+
+Combining both perspectives mitigates these limitations. Demographic evidence can ground personas by ensuring that relevant constraints and user groups are covered, while personas operationalize demographic insights into concrete scenarios and design implications\cite{rodriguez2022prototype,clemmensen2009cultural, howard2015personas}. In this way, demographics define the breadth and diversity of the user population, and personas turn this breadth into actionable guidance for GUI design.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.75\linewidth]{figures/Demographics-vs-personas.png}
+  \caption{Demographics provide population-level constraints, while personas capture goals, tasks, and usage context. (Grphic inspired by [TODO])}
+  \label{fig:persona-demo}
+\end{figure}
