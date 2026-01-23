@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.2)  22 JAN 2026 20:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.2)  23 JAN 2026 13:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -300,12 +300,12 @@ Underfull \hbox (badness 1400) in paragraph at lines 15--16
  \T1/ptm/m/it/10 5) Per-cep-tual Abil-i-ties (Vi-sion and Hear-ing): [][] \T1/ptm/m/n/10 Sen-sory
  []
 
-
+[3]
 Underfull \hbox (badness 6477) in paragraph at lines 70--74
 \T1/ptm/m/n/10 plicit con-sent and trans-parency (e.g., Ger-many, EU),
  []
 
-[3]
+
 Underfull \hbox (badness 2035) in paragraph at lines 87--89
 []\T1/ptm/m/n/10 Cognitive dis-abil-i-ties af-fect state and flow con-trol:
  []
@@ -327,24 +327,22 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5
-
-] (./paper.aux)
+[5] (./paper.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4603 strings out of 469476
- 71410 string characters out of 5467625
- 487475 words of memory out of 5000000
- 33191 multiletter control sequences out of 15000+600000
+ 4605 strings out of 469476
+ 71468 string characters out of 5467625
+ 487006 words of memory out of 5000000
+ 33193 multiletter control sequences out of 15000+600000
  738231 words of font info for 155 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  57i,11n,65p,1148b,348s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (5 pages, 300286 bytes).
+Output written on paper.pdf (5 pages, 302899 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
