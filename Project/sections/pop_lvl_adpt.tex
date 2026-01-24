@@ -5,26 +5,10 @@ Population-level adaptation refers to system-wide GUI decisions, implemented at 
 \subsection{Architectural Decisions: Modularity and Configurability}
 % Building a Modular System
 Building a modular system by design — in terms of code structure, application logic, and visual layout — makes it easier to adapt to new demographic or persona insights (e.g., supported languages, payment methods, sign-in options). For example, if the target demographic includes users from different countries, it is better to not hard-code the text directly into the UI, but instead to store it in external language files, which are then loaded depending on the region or the language preference of the user. 
-
 % Pros and Cons - Higher initial effort pays off
 Decisions of this kind strongly affect the system's abstraction levels and testing scope. While a robust architecture demands higher initial effort to design and implement compared to a more straightforward solution, it generally pays off in the long run, by making the product easier to maintain and scale.
-
 % Example: Netflix Modular -> Microservice
-A widely known example of this modular approach is Netflix's microservice architecture \cite{clustox_netflix_case_study_2025}.
-
-
-When Netflix launched its streaming service in 2007, it used a monolithic architecture in which all components were tightly coupled and deployed as a single unit.
-
-At launch in 2007, Netflix's streaming platform followed a monolithic design, bundling all application components into one deployable system.
-
-Netflix's 2007 streaming service was built as a monolith, with application components coupled together and released as a single deployment.
-
-
-
-
-
-Later, in 2009 they started switching to a microservice architecture, due to scalability and reliability challenges, and following a major outage in 2008, which allowed the platform to be split up into many independent microservices, each exchangeable and deployable on its own, also allowing much flexibility and opportunities for easy later extension.
-
+A widely known example of this modular approach is Netflix's microservice architecture \cite{clustox_netflix_case_study_2025}. When Netflix launched its streaming service in 2007 it adopted a monolithic architecture in which all components were tightly coupled and deployed as a single unit. In 2009, following a major outage in 2008, Netflix began migrating to a microservice architecture to address scalability and reliability issues and to facilitate their rapid expansion as a company. The platform was decomposed into many independently deployable services, increasing flexibility and simplifying future updates.
 
 \subsection{Accessibility as a Baseline System Capability}
 A software product should be as accessible as possible to all users by design. Just as most museum entrances include wheelchair ramps beside the stairs, a GUI should be designed to accommodate as many users types and usage situations as possible.
@@ -37,14 +21,20 @@ This is permitted by accounting for users with:
 \end{itemize}
 Most of the solution patterns for accommodating these user groups are well-known and standardized in accessibility guidelines such as WCAG. Examples include providing keyboard navigation for users with motor impairments, using high-contrast color schemes for visually impaired users, and ensuring compatibility with screen readers. By implementing these features from the outset, designers can create interfaces that are inclusive.
 
-\subsection{Scalable Layouts and Text for Diverse User Capabilities}
-When designing a GUI’s layout and text scaling, it is essential to consider target demographics and user personas. Older users may struggle with small text or controls, while users access applications on a wide range of devices, including smartphones, tablets, and desktops. Therefore, analyzing where users come from and which devices they use is critical to optimizing the layout. During development, fixed-size elements should be avoided in favor of relative sizing units. A responsive layout that adapts to different screen sizes, supports zooming, accommodates large text, and resizes dynamically is crucial for ensuring accessibility and broad usability.
 
-\subsection{Platform and Technology Choices}
-One of the decisions most strongly influenced by demographics and user personas is the choice of platform and technology. If the target demographic consists primarily of mobile users, as in the case of Uber, it is sensible to focus on mobile platforms (iOS, Android) and corresponding technologies rather than a web-based solution. When performance requirements are moderate, cross-platform frameworks such as React Native, Flutter, or Xamarin can reduce development effort while reaching a broad audience. If high performance is critical, native development (Swift for iOS, Kotlin for Android) is often preferable to fully exploit device capabilities. Conversely, if the target demographic mainly uses desktop systems, prioritizing desktop platforms (Windows, macOS) and technologies such as Electron or WPF may provide a richer user experience. Overall, platform and technology choices directly affect usability, performance, and scalability of the GUI.
 
 \subsection{Country- and Region-Specific Requirements}
-All users in the same region are subject to the same rules. Therefore
+
+Across all systems, the most prevalent population-level adaptation based on demographics addresses country- and region-specific requirements. Software products must adapt to different market environments. 
+
+
+In such settings, many UI elements presented to users are subject to change, ranging from the default country language - which is the most obvious and common adjustment - to payment and sign-in options.
+
+
+
+While a modular system represents just a decision enabler that allows to better adapt to circumstances, country- and region-Specific Requirements represent the most common demographic adjustment that is needed in all systems.
+
+
 
 % Airbnb example
 Airbnb login in United States for example is often through google or FaceBook credential. When they expanded to china they added Weibo and WeChat login options, which helped grow their chines customer base by 700\% in one year
@@ -52,7 +42,7 @@ Airbnb login in United States for example is often through google or FaceBook cr
 
 
 % Airbnb localization example
-One very good is airbnb's localization strategy \cite{ulg_airbnb_localization}. Airbnb platform was designed intentionally to support multiple langaugses, and to easily adapt to region-specific requirements.
+One very good is airbnb's localization strategy \cite{ulg_airbnb_localization}. Airbnb platform was designed intentionally to support multiple languages, and to easily adapt to region-specific requirements.
 
 instead of instantly translating web pages, a process called automatic translation, is not always best.
 
@@ -60,3 +50,24 @@ Rather than immediately translating on behalf of potential customers, Airbnb cho
 
 clear that their host probably does not speak the same language as them
 
+
+
+
+% --------------------------------------------------------------------%
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Scalable Layouts and Text for Diverse User Capabilities}
+When designing a GUI’s layout and text scaling, it is essential to consider target demographics and user personas. Older users may struggle with small text or controls, while users access applications on a wide range of devices, including smartphones, tablets, and desktops. Therefore, analyzing where users come from and which devices they use is critical to optimizing the layout. During development, fixed-size elements should be avoided in favor of relative sizing units. A responsive layout that adapts to different screen sizes, supports zooming, accommodates large text, and resizes dynamically is crucial for ensuring accessibility and broad usability.
+
+\subsection{Platform and Technology Choices}
+One of the decisions most strongly influenced by demographics and user personas is the choice of platform and technology. If the target demographic consists primarily of mobile users, as in the case of Uber, it is sensible to focus on mobile platforms (iOS, Android) and corresponding technologies rather than a web-based solution. When performance requirements are moderate, cross-platform frameworks such as React Native, Flutter, or Xamarin can reduce development effort while reaching a broad audience. If high performance is critical, native development (Swift for iOS, Kotlin for Android) is often preferable to fully exploit device capabilities. Conversely, if the target demographic mainly uses desktop systems, prioritizing desktop platforms (Windows, macOS) and technologies such as Electron or WPF may provide a richer user experience. Overall, platform and technology choices directly affect usability, performance, and scalability of the GUI.

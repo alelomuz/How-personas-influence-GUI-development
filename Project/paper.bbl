@@ -7,8 +7,7 @@
 \providecommand{\BIBentrySTDinterwordspacing}{\spaceskip=0pt\relax}
 \providecommand{\BIBentryALTinterwordstretchfactor}{4}
 \providecommand{\BIBentryALTinterwordspacing}{\spaceskip=\fontdimen2\font plus
-\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
-  \fontdimen4\font\relax}
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus \fontdimen4\font\relax}
 \providecommand{\BIBforeignlanguage}[2]{{%
 \expandafter\ifx\csname l@#1\endcsname\relax
 \typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
@@ -22,65 +21,43 @@
 \BIBdecl
 
 \bibitem{world2008web}
-W.~W.~W. Consortium \emph{et~al.}, ``Web content accessibility guidelines
-  (wcag) 2.0,'' 2008.
+W.~W.~W. Consortium \emph{et~al.}, ``Web content accessibility guidelines (wcag) 2.0,'' 2008.
 
 \bibitem{rodriguez2022prototype}
-J.~S. Rodr{\'\i}guez-Cardiel, H.~Luna-Garc{\'\i}a, J.~M. Celaya-Padilla, L.~M.
-  Zapata-Alvarado, J.~Ram{\'\i}rez-Carrillo, J.~F. Hern{\'a}ndez-Serrano, and
-  L.~E. Salcedo-Bugar{\'\i}n, ``Prototype user interface for an automatic sheep
-  weighing control system: Implementing iso 9241-210: 2019, iso 29110, ieee
-  830.'' in \emph{HCI-COLLAB}, 2022, pp. 83--93.
+J.~S. Rodr{\'\i}guez-Cardiel, H.~Luna-Garc{\'\i}a, J.~M. Celaya-Padilla, L.~M. Zapata-Alvarado, J.~Ram{\'\i}rez-Carrillo, J.~F. Hern{\'a}ndez-Serrano, and L.~E. Salcedo-Bugar{\'\i}n, ``Prototype user interface for an automatic sheep weighing control system: Implementing iso 9241-210: 2019, iso 29110, ieee 830.'' in \emph{HCI-COLLAB}, 2022, pp. 83--93.
 
 \bibitem{clemmensen2009cultural}
-T.~Clemmensen, M.~Hertzum, K.~Hornb{\ae}k, Q.~Shi, and P.~Yammiyavar,
-  ``Cultural cognition in usability evaluation,'' \emph{Interacting with
-  computers}, vol.~21, no.~3, pp. 212--220, 2009.
+T.~Clemmensen, M.~Hertzum, K.~Hornb{\ae}k, Q.~Shi, and P.~Yammiyavar, ``Cultural cognition in usability evaluation,'' \emph{Interacting with computers}, vol.~21, no.~3, pp. 212--220, 2009.
 
 \bibitem{atata2025designing}
-R.~Atata and T.~Odedeyi, ``Designing inclusive interfaces: Enhancing user
-  experience for people with disabilities through adaptive ui accessibility
-  principles,'' 2025.
+R.~Atata and T.~Odedeyi, ``Designing inclusive interfaces: Enhancing user experience for people with disabilities through adaptive ui accessibility principles,'' 2025.
 
 \bibitem{salminen2021survey}
-J.~Salminen, K.~Guan, S.-G. Jung, and B.~J. Jansen, ``A survey of 15 years of
-  data-driven persona development,'' \emph{International Journal of
-  Human--Computer Interaction}, vol.~37, no.~18, pp. 1685--1708, 2021.
+J.~Salminen, K.~Guan, S.-G. Jung, and B.~J. Jansen, ``A survey of 15 years of data-driven persona development,'' \emph{International Journal of Human--Computer Interaction}, vol.~37, no.~18, pp. 1685--1708, 2021.
 
 \bibitem{gomez2023design}
-M.~Gomez-Hernandez, X.~Ferre, C.~Moral, and E.~Villalba-Mora, ``Design
-  guidelines of mobile apps for older adults: systematic review and thematic
-  analysis,'' \emph{JMIR mHealth and uHealth}, vol.~11, p. e43186, 2023.
+M.~Gomez-Hernandez, X.~Ferre, C.~Moral, and E.~Villalba-Mora, ``Design guidelines of mobile apps for older adults: systematic review and thematic analysis,'' \emph{JMIR mHealth and uHealth}, vol.~11, p. e43186, 2023.
 
 \bibitem{wagner2014impact}
-N.~Wagner, K.~Hassanein, and M.~Head, ``The impact of age on website
-  usability,'' \emph{Computers in Human Behavior}, vol.~37, pp. 270--282, 2014.
+N.~Wagner, K.~Hassanein, and M.~Head, ``The impact of age on website usability,'' \emph{Computers in Human Behavior}, vol.~37, pp. 270--282, 2014.
 
 \bibitem{howard2015personas}
-T.~W. Howard, ``Are personas really usable?'' \emph{Communication Design
-  Quarterly Review}, vol.~3, no.~2, pp. 20--26, 2015.
+T.~W. Howard, ``Are personas really usable?'' \emph{Communication Design Quarterly Review}, vol.~3, no.~2, pp. 20--26, 2015.
 
 \bibitem{clustox_netflix_case_study_2025}
 \BIBentryALTinterwordspacing
-N.~Tariq. (2025, September) Netflix architecture case study: How does the
-  world's largest streamer build for scale? Clustox. Accessed: 2026-01-23.
-  [Online]. Available: \url{https://www.clustox.com/blog/netflix-case-study/}
+N.~Tariq. (2025, September) Netflix architecture case study: How does the world's largest streamer build for scale? Clustox. Accessed: 2026-01-23. [Online]. Available: \url{https://www.clustox.com/blog/netflix-case-study/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{ulg_airbnb_localization}
 \BIBentryALTinterwordspacing
-{United Language Group}. (2017) Airbnb's localization strategy. Originally
-  published August 2017; updated version. [Online]. Available:
-  \url{https://www.unitedlanguagegroup.com/blog/airbnb-localization-strategy}
+{United Language Group}. (2017) Airbnb's localization strategy. Originally published August 2017; updated version. [Online]. Available: \url{https://www.unitedlanguagegroup.com/blog/airbnb-localization-strategy}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Smith2020}
-J.~Smith and J.~Doe, ``An example study on latex,'' \emph{Journal of Examples},
-  vol.~10, no.~2, pp. 12--34, 2020.
+J.~Smith and J.~Doe, ``An example study on latex,'' \emph{Journal of Examples}, vol.~10, no.~2, pp. 12--34, 2020.
 
 \bibitem{pruitt2003personas}
-J.~Pruitt and J.~Grudin, ``Personas: practice and theory,'' in
-  \emph{Proceedings of the 2003 conference on Designing for user experiences},
-  2003, pp. 1--15.
+J.~Pruitt and J.~Grudin, ``Personas: practice and theory,'' in \emph{Proceedings of the 2003 conference on Designing for user experiences}, 2003, pp. 1--15.
 
 \end{thebibliography}
