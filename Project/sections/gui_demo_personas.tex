@@ -1,5 +1,53 @@
 \subsection{Graphical User Interface Development}
-% Definition and scope
+Graphical User Interface (GUI) development encompasses the design, implementation, and evaluation of visual and interactive elements through which users interact with a system. In contrast to command-line interfaces, GUIs rely on graphical components such as windows, menus, buttons, icons, and form elements that mediate user input and system feedback. At its core, GUI development seeks to align these components with users' perceptual, cognitive, and motor capabilities, as well as with their goals and tasks in a given context of use.
+In the context of software systems, it is useful to distinguish
+between \emph{GUI design} and \emph{GUI development}.
+GUI design focuses on the conceptual and visual aspects of
+an interface: information architecture, interaction flows,
+layout, typography, colours, and overall look-and-feel.
+Its goal is to define \emph{what} the interface should
+communicate and \emph{how} interaction should feel from
+a user’s perspective.
+
+GUI development, in contrast, comprises the engineering
+activities required to turn these design artefacts into a robust,
+interactive, and maintainable software component. It focuses
+on \emph{how} the specified interface is realised in code, how
+it behaves under different conditions, and how it integrates
+with the underlying application logic and data sources.
+
+From an engineering perspective, GUI development typically
+involves (i) translating user and system requirements into
+concrete UI behaviour and constraints, (ii) selecting suitable
+frameworks and architectural patterns (e.g., MVC or MVVM),
+(iii) implementing components, event handling, state
+management, and validation, and (iv) assuring quality through
+testing, performance optimisation, and accessibility checks.
+These steps are usually executed iteratively based on feedback
+from usage data and evaluation.
+
+Modern GUI development is further constrained by platform
+guidelines and conventions (e.g., operating system human
+interface guidelines or web standards), which define common
+interaction patterns and affordances. Adhering to these
+conventions reduces users’ learning effort and supports
+consistency across applications, while still leaving room
+for product-specific branding and interaction styles.
+
+Importantly, GUI development is not a purely technical
+exercise. Implementation decisions about layout structure,
+interaction complexity, feedback timing, and support for
+assistive technologies implicitly encode assumptions about
+the intended user population. If these assumptions do not
+match the actual user base, the resulting interface may be
+correct from an implementation standpoint but still fail in
+terms of usability and accessibility.
+
+In the following, we therefore focus on how characteristics
+of the target user group inform GUI design and development.
+We first distinguish demographics from user personas and
+discuss how both perspectives can be combined to derive
+concrete implications for graphical user interfaces.
 
 
 \subsection{User Demographics vs.\ Personas}
