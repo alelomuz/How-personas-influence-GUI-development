@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex paper"] 1769271160.95574 "paper.aux" "paper.bbl" "paper" 1769271185.0267 0
+["bibtex paper"] 1769357677.04253 "paper.aux" "paper.bbl" "paper" 1769357677.33165 0
   "./IEEEtran.bst" 1767436565.86117 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
   "./references.bib" 1769172329.78827 3669 bb8af99c5dbc50f2fb3412b49fc8623c ""
-  "paper.aux" 1769271184.97287 6922 776b58e3501cfc502177bc46ded2c752 "pdflatex"
+  "paper.aux" 1769357677.27999 6942 be71121a5aa07160e22038612f7811dc "pdflatex"
   (generated)
   "paper.bbl"
   "paper.blg"
   (rewritten before read)
-["pdflatex"] 1769271184.72745 "/Users/alelomuz/Documents/How-personas-influence-GUI-development/Project/paper.tex" "paper.pdf" "paper" 1769271185.02683 0
+["pdflatex"] 1769357677.06229 "/Users/alelomuz/Documents/How-personas-influence-GUI-development/Project/paper.tex" "paper.pdf" "paper" 1769357677.33177 0
   "/Users/alelomuz/Documents/How-personas-influence-GUI-development/Project/paper.tex" 1769084148.70693 3324 167147e065053c29a9cfc321d2a9a207 ""
   "/Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -84,14 +84,14 @@
   "IEEEtran.cls" 1767378394.95609 288304 b67b6fc6c2abb39f9b461923f5199343 ""
   "algorithmic.sty" 1767387188.83333 9318 793e9d5a71e74e730d97f6bf5d7e2bca ""
   "figures/Demographics-vs-personas.png" 1768931967.31999 262242 4060514ee4127668daf9aeff73e05046 ""
-  "paper.aux" 1769271184.97287 6922 776b58e3501cfc502177bc46ded2c752 "pdflatex"
-  "paper.bbl" 1769271160.97392 3572 6218d2544d0d29f74e2f1918c8dcea9f "bibtex paper"
+  "paper.aux" 1769357677.27999 6942 be71121a5aa07160e22038612f7811dc "pdflatex"
+  "paper.bbl" 1769357677.06082 3572 6218d2544d0d29f74e2f1918c8dcea9f "bibtex paper"
   "paper.tex" 1769084148.70693 3324 167147e065053c29a9cfc321d2a9a207 ""
   "sections/ai.tex" 1769083469.82917 3663 7e2047af1c1b47228cc3cc1aee95b7c7 ""
   "sections/gui_demo_personas.tex" 1769268324.1115 5524 d3434d6effa912539d93aa2c10826d09 ""
-  "sections/ind_lvl_adpt.tex" 1769270225.34682 7279 771d82001f5d7478279d0b59950b04f8 ""
+  "sections/ind_lvl_adpt.tex" 1769276766.28299 1 68b329da9893e34099c7d8ad5cb9c940 ""
   "sections/intro.tex" 1769080748.45949 3113 de5a1e3ff242e244f058394cd275c4b4 ""
-  "sections/pop_lvl_adpt.tex" 1769271184.55792 6819 6b75371b6b9ff3c44b13648e43f3cc07 ""
+  "sections/pop_lvl_adpt.tex" 1769357676.59721 14705 1002f61ce4e61224039083de0325cee5 ""
   "sections/prcs_val_infl.tex" 1769083404.95716 353 9ae3442d976a2857dded35f4997400ba ""
   (generated)
   "paper.aux"

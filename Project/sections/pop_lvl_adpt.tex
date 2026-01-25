@@ -5,56 +5,33 @@ Population-level adaptation refers to system-wide GUI decisions, implemented at 
 \subsection{Architectural Decisions: Modularity and Configurability}
 % Building a Modular System
 Building a modular system by design — in terms of code structure, application logic, and visual layout — makes it easier to adapt to new demographic or persona insights (e.g., supported languages, payment methods, sign-in options). For example, if the target demographic includes users from different countries, it is better to not hard-code the text directly into the UI, but instead to store it in external language files, which are then loaded depending on the region or the language preference of the user. 
+
 % Pros and Cons - Higher initial effort pays off
 Decisions of this kind strongly affect the system's abstraction levels and testing scope. While a robust architecture demands higher initial effort to design and implement compared to a more straightforward solution, it generally pays off in the long run, by making the product easier to maintain and scale.
+
 % Example: Netflix Modular -> Microservice
 A widely known example of this modular approach is Netflix's microservice architecture \cite{clustox_netflix_case_study_2025}. When Netflix launched its streaming service in 2007 it adopted a monolithic architecture in which all components were tightly coupled and deployed as a single unit. In 2009, following a major outage in 2008, Netflix began migrating to a microservice architecture to address scalability and reliability issues and to facilitate their rapid expansion as a company. The platform was decomposed into many independently deployable services, increasing flexibility and simplifying future updates.
 
+\subsection{Country- and Region-Specific Requirements}
+% Concept
+Across all systems, the most prevalent population-level adaptation based on demographics addresses country- and region-specific requirements. Software products must adapt to different market environments. In such settings, many UI elements presented to users are subject to change, ranging from the default country language — which is the most obvious and common adjustment — to payment and sign-in options. The more a system aligns with local needs and preferences, the more successful it becomes.
+
+% Airbnb example
+A strong example of this approach is Airbnb's localization strategy \cite{ulg_airbnb_localization}. Airbnb realized more than many other companies that adapting to the local market is crucial for success. One of Airbnb’s local adaptations is the use of customized sign-in options that align with locally established practices; for example in the United States they include Google and Facebook, while in China they include Weibo and WeChat. Such approach helped increase Airbnb’s Chinese customer base by 700\% within one year. Another strategic response to anticipated market needs was Airbnb’s expansion of payment methods ahead of the 2016 Rio Olympics. By extending payment options to support local Brazilian payment methods and multiple currencies beyond the U.S.-dollar, Airbnb enabled 30 million guests to book in 32 currencies and facilitated host payouts in 65 currencies.
+
 \subsection{Accessibility as a Baseline System Capability}
-A software product should be as accessible as possible to all users by design. Just as most museum entrances include wheelchair ramps beside the stairs, a GUI should be designed to accommodate as many users types and usage situations as possible.
-This is permitted by accounting for users with:
+A software product should be as accessible as possible to all users by design. Just as most museum entrances include wheelchair ramps beside the stairs, a GUI should be designed to accommodate as many users types and usage situations as possible, such as users with:
 \begin{itemize}
   \item \textbf{Permanent impairments}, e.g. visual, auditory, motor, cognitive impairments
   \item \textbf{Temporary impairments}, e.g. broken arm, wearing gloves
   \item \textbf{Situational constraints}, e.g. bright sunlight, noisy environments, small screens
   \item \textbf{Cognitive abilities}, e.g. low literacy, limited technical skills
 \end{itemize}
-Most of the solution patterns for accommodating these user groups are well-known and standardized in accessibility guidelines such as WCAG. Examples include providing keyboard navigation for users with motor impairments, using high-contrast color schemes for visually impaired users, and ensuring compatibility with screen readers. By implementing these features from the outset, designers can create interfaces that are inclusive.
 
-
-
-\subsection{Country- and Region-Specific Requirements}
-
-Across all systems, the most prevalent population-level adaptation based on demographics addresses country- and region-specific requirements. Software products must adapt to different market environments. 
-
-
-In such settings, many UI elements presented to users are subject to change, ranging from the default country language - which is the most obvious and common adjustment - to payment and sign-in options.
-
-
-
-While a modular system represents just a decision enabler that allows to better adapt to circumstances, country- and region-Specific Requirements represent the most common demographic adjustment that is needed in all systems.
-
-
-
-% Airbnb example
-Airbnb login in United States for example is often through google or FaceBook credential. When they expanded to china they added Weibo and WeChat login options, which helped grow their chines customer base by 700\% in one year
-
-
-
-% Airbnb localization example
-One very good is airbnb's localization strategy \cite{ulg_airbnb_localization}. Airbnb platform was designed intentionally to support multiple languages, and to easily adapt to region-specific requirements.
-
-instead of instantly translating web pages, a process called automatic translation, is not always best.
-
-Rather than immediately translating on behalf of potential customers, Airbnb chose to display profiles in the host's local language while also adding an optional translate button
-
-clear that their host probably does not speak the same language as them
-
-
-
+% WCAG
+Most solution patterns for addressing such accessibility concerns are well known and standardized in accessibility guidelines such as the Web Content Accessibility Guidelines (WCAG). The WCAG were developed by the World Wide Web Consortium (W3C), a non-profit organization dedicated to the development of open web standards and guidelines, historically hosted by institutions such as MIT and other well-known universities. The WCAG provide a technical accessability benchmark for various aspects of GUI and UX design, enabling greater inclusion of diverse personas and demographic needs. Examples include providing full keyboard navigation for users with motor impairments, ensuring sufficient color contrast for users with visual impairments, and designing interfaces that are compatible with screen readers and other assistive technologies. Despite being non-legally binding guidelines, the WCAG serve as the foundation for many legal and organizational accessibility requirements, such as the european Accessibility Act (EAA) and the U.S. Section 508 Act.
 
 % --------------------------------------------------------------------%
-
 
 
 
