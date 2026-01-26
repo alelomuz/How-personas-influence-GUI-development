@@ -1,20 +1,33 @@
 \subsection{What is Individual-Level Adaptation?}
 % Individual-level adaptation definition
-While population-level adaptation applies to all users within a population, individual-level adaptation refers to GUI adaptations tailored to a single user. Such adaptations can occur either automatically, imposed by the system (\textbf{System-driven adaptation}), or be explicitly enabled by the user (\textbf{User-driven personalization}). 
+While population-level adaptation applies to all users within a population, individual-level adaptation refers to GUI adaptations tailored to a single user. Such adaptations can occur either automatically, imposed by the system (\textbf{Personalization}), or be explicitly enabled by the user (\textbf{Customization}). 
 
 % User-driven personalization is less data-driven than System-driven adaptation
-The decision to implement any form of user-driven personalization is typically driven by demographic and persona heterogeneity and therefore constitutes a relevant development concern. However, since this form of personalization is optional and enhances the UI/UX only when actively discovered and used by the relevant user groups, it does not require the same level of demographic and persona analysis as system-driven adaptation, which addresses more relevant UI enhancements that are applied automatically.
+The decision to implement any form of customization is typically driven by demographic and persona heterogeneity and therefore constitutes a relevant development concern. However, since this form of customization is optional and enhances the UI/UX only when actively discovered and used by the relevant user groups, it does not require the same level of demographic and persona analysis as personalization, which addresses more relevant UI enhancements that are applied automatically by the system.
+
+\subsection{When to use Customization?}
+% Personalization is preferred, but requires much data
+Assuming a company has a clear and reliable understanding of the needs of a specific niche user group, the optimal approach is to implement personalization automatically within the UI/UX rather than relegating such improvements to deeply buried configuration settings that rely on users actively discovering and actively enabling them. However, given the substantial cost of false positives in such cases, implementing personalization requires strongly data-backed inferences, which can rarely be guaranteed with enough certainty. For this reason, customization is widely used in the industry, especially in applications that aim to satisfy diverse user needs.
+
+% Less customization as possible in Mobile Apps
+Mobile applications, for example, tend to offer less customization than other platforms and place a stronger emphasis on simplicity and task-oriented UX. Users of such applications are typically more focused on accomplishing tasks than on customizing the interface, a tendency that is partly influenced by limited screen size. \cite{apostol2024ux}
+
+% Apps that force the user to customize
+However, in some cases — such as the Yazio calorie-tracking app — the mobile application depends heavily on the user persona and must therefore require users to complete an initial customization process, such as a multiple-choice quiz.
+
+% \subsection{Customization}
+
+% Personalization
+% automatically adjustments based through algorithms and data, e.g. based on history activity
+% e.g. amazon products recommendation on teh home page
+% system-driven
 
 
-
-
-
-
-
-
-
-
-
+% Customization
+% change the interface look to match their own style/interests
+% e.g. pick between a light or dark theme
+% user-driven
+% e.g. Samsung’s Good Lock UI suite
 
 
 

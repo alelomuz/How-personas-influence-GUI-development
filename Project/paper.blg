@@ -15,45 +15,45 @@ Warning--empty journal in world2008web
 Warning--empty journal in atata2025designing
 
 Done.
-You've used 12 entries,
+You've used 13 entries,
             4087 wiz_defined-function locations,
-            901 strings with 9685 characters,
-and the built_in function-call counts, 8561 in all, are:
-= -- 710
-> -- 193
+            909 strings with 9880 characters,
+and the built_in function-call counts, 8989 in all, are:
+= -- 751
+> -- 197
 < -- 67
-+ -- 103
-- -- 34
-* -- 403
-:= -- 1332
-add.period$ -- 27
-call.type$ -- 12
-change.case$ -- 14
++ -- 105
+- -- 35
+* -- 417
+:= -- 1418
+add.period$ -- 31
+call.type$ -- 13
+change.case$ -- 16
 chr.to.int$ -- 147
-cite$ -- 14
-duplicate$ -- 619
-empty$ -- 658
-format.name$ -- 43
-if$ -- 1966
+cite$ -- 15
+duplicate$ -- 651
+empty$ -- 695
+format.name$ -- 44
+if$ -- 2060
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 110
-newline$ -- 63
-num.names$ -- 12
-pop$ -- 251
+int.to.str$ -- 13
+missing$ -- 118
+newline$ -- 68
+num.names$ -- 13
+pop$ -- 269
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 667
+skip$ -- 702
 stack$ -- 0
-substring$ -- 368
-swap$ -- 500
+substring$ -- 370
+swap$ -- 523
 text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 12
+type$ -- 13
 warning$ -- 2
-while$ -- 41
-width$ -- 14
-write$ -- 141
+while$ -- 42
+width$ -- 15
+write$ -- 153
 (There were 2 warnings)

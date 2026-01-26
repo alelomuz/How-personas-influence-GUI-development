@@ -54,6 +54,11 @@ N.~Tariq. (2025, September) Netflix architecture case study: How does the world'
 {United Language Group}. (2017) Airbnb's localization strategy. Originally published August 2017; updated version. [Online]. Available: \url{https://www.unitedlanguagegroup.com/blog/airbnb-localization-strategy}
 \BIBentrySTDinterwordspacing
 
+\bibitem{apostol2024ux}
+\BIBentryALTinterwordspacing
+M.~Apostol. (2024, June) 12 ux best practises for mobile apps. HyperSense Software. Accessed: 2026-01-26. [Online]. Available: \url{https://hypersense-software.com/blog/2024/06/19/12-ux-best-practices-for-mobile-apps/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Smith2020}
 J.~Smith and J.~Doe, ``An example study on latex,'' \emph{Journal of Examples}, vol.~10, no.~2, pp. 12--34, 2020.
 
