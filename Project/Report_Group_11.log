@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.2)  27 JAN 2026 19:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.2)  27 JAN 2026 22:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/alelomuz/Documents/How-personas-influence-GUI-development/Project/paper.tex
-(/Users/alelomuz/Documents/How-personas-influence-GUI-development/Project/paper.tex
+**/Users/alelomuz/Documents/How-personas-influence-GUI-development/Project/Report_Group_11.tex
+(/Users/alelomuz/Documents/How-personas-influence-GUI-development/Project/Report_Group_11.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
 (./IEEEtran.cls
@@ -340,8 +340,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 ) (/Users/alelomuz/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count318
-) (./paper.aux)
-\openout1 = `paper.aux'.
+) (./Report_Group_11.aux)
+\openout1 = `Report_Group_11.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -383,9 +383,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 18.
- (./paper.out) (./paper.out)
+ (./Report_Group_11.out) (./Report_Group_11.out)
 \@outlinefile=\write4
-\openout4 = `paper.out'.
+\openout4 = `Report_Group_11.out'.
 
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 59.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
@@ -424,7 +424,7 @@ Underfull \hbox (badness 2913) in paragraph at lines 132--134
 []\T1/ptm/m/n/10 Accessibility stan-dards de-fine im-ple-men-ta-tion rules:
  []
 
-[4]) (./sections/ind_lvl_adpt.tex) (./sections/prcs_val_infl.tex) (./sections/ai.tex [5]) (./sections/conclusion.tex) (./paper.bbl [6]) Excluding 'comment' comment.
+[4]) (./sections/ind_lvl_adpt.tex) (./sections/prcs_val_infl.tex) (./sections/ai.tex [5]) (./sections/conclusion.tex) (./Report_Group_11.bbl [6]) Excluding 'comment' comment.
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -438,24 +438,24 @@ Before submitting the final camera ready copy, remember to:
 
 [7
 
-] (./paper.aux)
+] (./Report_Group_11.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
  ***********
-Package rerunfilecheck Info: File `paper.out' has not changed.
+Package rerunfilecheck Info: File `Report_Group_11.out' has not changed.
 (rerunfilecheck)             Checksum: C31FCEBBD36EEA1FA83D0FFCA7E61A57;11158.
  ) 
 Here is how much of TeX's memory you used:
  11775 strings out of 469476
- 182869 string characters out of 5467625
- 610631 words of memory out of 5000000
+ 183109 string characters out of 5467625
+ 610681 words of memory out of 5000000
  40182 multiletter control sequences out of 15000+600000
  740419 words of font info for 164 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 75i,11n,79p,1192b,616s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,1202b,616s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (7 pages, 319123 bytes).
+Output written on Report_Group_11.pdf (7 pages, 319131 bytes).
 PDF statistics:
  329 PDF objects out of 1000 (max. 8388607)
  304 compressed objects within 4 object streams
