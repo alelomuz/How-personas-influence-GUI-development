@@ -1,0 +1,6 @@
+PWD /Users/alelomuz/Documents/How-personas-influence-GUI-development
+INPUT /Users/alelomuz/Library/TinyTeX/texmf.cnf
+INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/web2c/texmf.cnf
+INPUT /Users/alelomuz/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/alelomuz/Documents/How-personas-influence-GUI-development/Project/Report_Group_11.tex
+OUTPUT Report_Group_11.log
