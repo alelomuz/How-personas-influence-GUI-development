@@ -10,61 +10,20 @@ The decision to implement any form of customization is typically driven by demog
 Assuming a company has a clear and reliable understanding of the needs of a specific niche user group, the optimal approach is to implement personalization automatically within the UI/UX rather than relegating such improvements to deeply buried configuration settings that rely on users actively discovering and actively enabling them. However, given the substantial cost of false positives in such cases, implementing personalization requires strongly data-backed inferences, which can rarely be guaranteed with enough certainty. For this reason, customization is widely used in the industry, especially in applications that aim to satisfy diverse user needs.
 
 % Less customization as possible in Mobile Apps
-Mobile applications, for example, tend to offer less customization than other platforms and place a stronger emphasis on simplicity and task-oriented UX. Users of such applications are typically more focused on accomplishing tasks than on customizing the interface, a tendency that is partly influenced by limited screen size. \cite{apostol2024ux}
+Mobile applications, for example, tend to offer less customization than other platforms and place a stronger emphasis on simplicity and task-oriented UX. Users of smartphone apps are typically more focused on accomplishing the actual tasks, rather than on customizing the app itself, a tendency that is partly influenced by limited screen size. \cite{apostol2024ux}
 
 % Apps that force the user to customize
 However, in some cases — such as the Yazio calorie-tracking app — the mobile application depends heavily on the user persona and must therefore require users to complete an initial customization process, such as a multiple-choice quiz.
 
-% \subsection{Customization}
-
-% Personalization
-% automatically adjustments based through algorithms and data, e.g. based on history activity
-% e.g. amazon products recommendation on teh home page
-% system-driven
 
 
-% Customization
-% change the interface look to match their own style/interests
-% e.g. pick between a light or dark theme
-% user-driven
-% e.g. Samsung’s Good Lock UI suite
+A strong example for user user-driven customization is the Samsung's Good Lock app, which allows users of Samsung Galaxy Android devices to customize the UI/UX beyond standard system settings by extending Samsung’s One UI — for example, through lock screens, navigation bars, themes, and gesture controls.Samsung’s approach directly addresses power user personas seeking advanced customization and device optimization, without altering the default experience for most users. \cite{goodlock_wikipedia} \cite{goodlock_playstore} \cite{androidcentral_goodlock_2025}
 
+\subsection{Personalization}
 
+The concept of personalization is significantly broader and more complex than customization, typically extending far beyond superficial adjustments and relying heavily on demographic and persona insights. Personalization refers to the system-driven, automatic tailoring of a system’s content, layout, or behavior based on individual user data, and can be realized across many different levels and forms. \cite{personalization_wikipedia} \cite{nngroup_customization_personalization_2016}
 
-% User-driven personalization
-% Designed and implemented because personas and demographics indicate heterogeneity
+\subsection{Recommender Systems}
+Algorithmic curation represents one of the most prevalent personalization approaches, leveraging user data to infer individual preferences and tailor content, recommendations, or experiences accordingly. \cite{algorithmic_curation_wikipedia}
 
-% A development decision: exposing configurability instead of enforcing one UI
-
-% demographics/personas influence development, even though the final choice is manual.
-
-% Persona diversity
-
-% Demographic variability
-
-% Development rationale
-
-% Configurability as a design-for-diversity decision
-
-% Development implications (settings architecture, state handling)
-% configuration
-
-
-
-
-
-
-
-% System-driven adaptation
-
-% Demographics/personas → logic → automatic UI behavior
-
-% A/B testing, adaptive menus, inferred preferences
-
-% Runtime personalization based on user data
-
-% Data-driven
-
-% Automatic
-
-% Runtime or build-time
+Of particular interest for GUI development in this context are recommender systems. Applications across several domains, including social media (e.g., Instagram, TikTok), entertainment platforms (e.g., Netflix, Spotify, YouTube), and e-commerce (e.g., Amazon), adopt homepages that are heavily driven by algorithms inferring user interests. The entire GUI development must therefore be heavily adapted to support a highly dynamic interface that operates in close conjunction with systems performing in-depth analysis of demographic and persona data. \cite{recommender_system_wikipedia} \cite{altexsoft_recommender_systems_personalization_2021}

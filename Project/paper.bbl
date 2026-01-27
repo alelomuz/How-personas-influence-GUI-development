@@ -59,6 +59,46 @@ N.~Tariq. (2025, September) Netflix architecture case study: How does the world'
 M.~Apostol. (2024, June) 12 ux best practises for mobile apps. HyperSense Software. Accessed: 2026-01-26. [Online]. Available: \url{https://hypersense-software.com/blog/2024/06/19/12-ux-best-practices-for-mobile-apps/}
 \BIBentrySTDinterwordspacing
 
+\bibitem{goodlock_wikipedia}
+\BIBentryALTinterwordspacing
+{Wikipedia contributors}. (2025) Good lock --- wikipedia, the free encyclopedia. Wikimedia Foundation. Accessed: 2026-01-27. [Online]. Available: \url{https://en.wikipedia.org/wiki/Good_Lock}
+\BIBentrySTDinterwordspacing
+
+\bibitem{goodlock_playstore}
+\BIBentryALTinterwordspacing
+{Samsung Electronics Co., Ltd.} (2025) Good lock --- apps on google play. Google Play. Accessed: 2026-01-27. [Online]. Available: \url{https://play.google.com/store/apps/details?hl=en_IN&id=com.samsung.android.goodlock}
+\BIBentrySTDinterwordspacing
+
+\bibitem{androidcentral_goodlock_2025}
+\BIBentryALTinterwordspacing
+H.~Jonnalagadda. (2025, September) Samsung good lock: The ultimate guide to customizing your galaxy phone. Android Central. Accessed: 2026-01-27. [Online]. Available: \url{https://www.androidcentral.com/samsung-good-lock}
+\BIBentrySTDinterwordspacing
+
+\bibitem{personalization_wikipedia}
+\BIBentryALTinterwordspacing
+{Wikipedia contributors}. (2025) Personalization --- wikipedia, the free encyclopedia. Wikimedia Foundation. Accessed: 2026-01-27. [Online]. Available: \url{https://en.wikipedia.org/wiki/Personalization}
+\BIBentrySTDinterwordspacing
+
+\bibitem{nngroup_customization_personalization_2016}
+\BIBentryALTinterwordspacing
+{Nielsen Norman Group}. (2016, July) Customization vs. personalization in the user experience. Accessed: 2026-01-27. [Online]. Available: \url{https://www.nngroup.com/articles/customization-personalization}
+\BIBentrySTDinterwordspacing
+
+\bibitem{algorithmic_curation_wikipedia}
+\BIBentryALTinterwordspacing
+{Wikipedia contributors}. (2026) Algorithmic curation --- wikipedia, the free encyclopedia. Wikimedia Foundation. Accessed: 2026-01-27. [Online]. Available: \url{https://en.wikipedia.org/wiki/Algorithmic_curation}
+\BIBentrySTDinterwordspacing
+
+\bibitem{recommender_system_wikipedia}
+\BIBentryALTinterwordspacing
+------. (2026) Recommender system --- wikipedia, the free encyclopedia. Wikimedia Foundation. Accessed: 2026-01-27. [Online]. Available: \url{https://en.wikipedia.org/wiki/Recommender_system}
+\BIBentrySTDinterwordspacing
+
+\bibitem{altexsoft_recommender_systems_personalization_2021}
+\BIBentryALTinterwordspacing
+{AltexSoft Editorial Team}. (2021, July) Recommender systems: Behind the scenes of machine learning-based personalization. AltexSoft. Accessed: 2026-01-27. [Online]. Available: \url{https://www.altexsoft.com/blog/recommender-system-personalization/?utm_source=chatgpt.com}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Smith2020}
 J.~Smith and J.~Doe, ``An example study on latex,'' \emph{Journal of Examples}, vol.~10, no.~2, pp. 12--34, 2020.
 

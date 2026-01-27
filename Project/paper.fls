@@ -296,9 +296,14 @@ INPUT sections/prcs_val_infl.tex
 INPUT ./sections/ai.tex
 INPUT ./sections/ai.tex
 INPUT sections/ai.tex
+INPUT ./sections/conclusion.tex
+INPUT ./sections/conclusion.tex
+INPUT sections/conclusion.tex
 INPUT ./paper.bbl
 INPUT ./paper.bbl
 INPUT paper.bbl
+INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
+INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
@@ -308,8 +313,6 @@ INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbo
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
-INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT paper.aux
 INPUT ./paper.out
 INPUT ./paper.out

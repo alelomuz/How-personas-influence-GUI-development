@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.2)  26 JAN 2026 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.2)  27 JAN 2026 19:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -399,7 +399,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
-<figures/Demographics-vs-personas.png, id=197, 665.48625pt x 666.49pt>
+<figures/Demographics-vs-personas.png, id=205, 665.48625pt x 666.49pt>
 File: figures/Demographics-vs-personas.png Graphic file (type png)
 <use figures/Demographics-vs-personas.png>
 Package pdftex.def Info: figures/Demographics-vs-personas.png  used on input line 64.
@@ -424,7 +424,7 @@ Underfull \hbox (badness 2913) in paragraph at lines 132--134
 []\T1/ptm/m/n/10 Accessibility stan-dards de-fine im-ple-men-ta-tion rules:
  []
 
-[4]) (./sections/ind_lvl_adpt.tex) (./sections/prcs_val_infl.tex) (./sections/ai.tex [5]) (./paper.bbl) Excluding 'comment' comment.
+[4]) (./sections/ind_lvl_adpt.tex) (./sections/prcs_val_infl.tex) (./sections/ai.tex [5]) (./sections/conclusion.tex) (./paper.bbl [6]) Excluding 'comment' comment.
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -436,27 +436,29 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[6] (./paper.aux)
+[7
+
+] (./paper.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
  ***********
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: BFF305BF9132B04658C1CB965F608FD3;10869.
+(rerunfilecheck)             Checksum: C31FCEBBD36EEA1FA83D0FFCA7E61A57;11158.
  ) 
 Here is how much of TeX's memory you used:
- 11749 strings out of 469476
- 182133 string characters out of 5467625
- 610243 words of memory out of 5000000
- 40170 multiletter control sequences out of 15000+600000
+ 11775 strings out of 469476
+ 182869 string characters out of 5467625
+ 610631 words of memory out of 5000000
+ 40182 multiletter control sequences out of 15000+600000
  740419 words of font info for 164 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 75i,11n,79p,1192b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,1192b,616s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (6 pages, 314019 bytes).
+Output written on paper.pdf (7 pages, 319123 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
- 358 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 329 PDF objects out of 1000 (max. 8388607)
+ 304 compressed objects within 4 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 374 words of extra memory for PDF output out of 10000 (max. 10000000)
 
