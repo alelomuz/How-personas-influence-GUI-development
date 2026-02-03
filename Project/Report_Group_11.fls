@@ -302,8 +302,6 @@ INPUT sections/conclusion.tex
 INPUT ./Report_Group_11.bbl
 INPUT ./Report_Group_11.bbl
 INPUT Report_Group_11.bbl
-INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
-INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
@@ -313,6 +311,8 @@ INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbo
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
+INPUT /Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT Report_Group_11.aux
 INPUT ./Report_Group_11.out
 INPUT ./Report_Group_11.out

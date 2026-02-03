@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.2)  30 JAN 2026 00:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.2)  3 FEB 2026 14:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -424,7 +424,22 @@ Underfull \hbox (badness 2913) in paragraph at lines 132--134
 []\T1/ptm/m/n/10 Accessibility stan-dards de-fine im-ple-men-ta-tion rules:
  []
 
-[4]) (./sections/ind_lvl_adpt.tex) (./sections/prcs_val_infl.tex) (./sections/ai.tex [5]) (./sections/conclusion.tex) (./Report_Group_11.bbl [6]) Excluding 'comment' comment.
+[4]) (./sections/ind_lvl_adpt.tex) (./sections/prcs_val_infl.tex [5]) (./sections/ai.tex [6]) (./sections/conclusion.tex) (./Report_Group_11.bbl [7]
+Underfull \hbox (badness 1629) in paragraph at lines 109--111
+[]\T1/ptm/m/n/8 geeksforgeeks Ed-i-to-rial Team. (2024, Jan-uary) What
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 114--116
+[]\T1/ptm/m/n/8 ------. (2026, Jan-uary) Re-quire-ments en-gi-neer-ing pro-
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 114--116
+\T1/ptm/m/n/8 cess in soft-ware en-gi-neer-ing. geeks-forgeeks. [On-
+ []
+
+) Excluding 'comment' comment.
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -436,7 +451,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[7
+[8
 
 ] (./Report_Group_11.aux)
  ***********
@@ -444,21 +459,21 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
  ***********
 Package rerunfilecheck Info: File `Report_Group_11.out' has not changed.
-(rerunfilecheck)             Checksum: C31FCEBBD36EEA1FA83D0FFCA7E61A57;11158.
+(rerunfilecheck)             Checksum: FC1962F733F521729EBAB0CC74449A15;11518.
  ) 
 Here is how much of TeX's memory you used:
- 11775 strings out of 469476
- 183109 string characters out of 5467625
- 610681 words of memory out of 5000000
- 40182 multiletter control sequences out of 15000+600000
+ 11792 strings out of 469476
+ 183801 string characters out of 5467625
+ 611180 words of memory out of 5000000
+ 40190 multiletter control sequences out of 15000+600000
  740419 words of font info for 164 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 75i,11n,79p,1202b,616s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,1202b,614s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/alelomuz/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report_Group_11.pdf (7 pages, 319129 bytes).
+Output written on Report_Group_11.pdf (8 pages, 325846 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 304 compressed objects within 4 object streams
- 77 named destinations out of 1000 (max. 500000)
+ 363 PDF objects out of 1000 (max. 8388607)
+ 337 compressed objects within 4 object streams
+ 86 named destinations out of 1000 (max. 500000)
  374 words of extra memory for PDF output out of 10000 (max. 10000000)
 

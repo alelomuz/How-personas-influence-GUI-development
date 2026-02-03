@@ -21,7 +21,7 @@
 \BIBdecl
 
 \bibitem{world2008web}
-W.~W.~W. Consortium \emph{et~al.}, ``Web content accessibility guidelines (wcag) 2.0,'' 2008.
+W.~W.~W. Consortium \emph{et~al.}, ``Web content accessibility guidelines (wcag) 2.0,'' \emph{World Wide Web Consortium}, 2008.
 
 \bibitem{rodriguez2022prototype}
 J.~S. Rodr{\'\i}guez-Cardiel, H.~Luna-Garc{\'\i}a, J.~M. Celaya-Padilla, L.~M. Zapata-Alvarado, J.~Ram{\'\i}rez-Carrillo, J.~F. Hern{\'a}ndez-Serrano, and L.~E. Salcedo-Bugar{\'\i}n, ``Prototype user interface for an automatic sheep weighing control system: Implementing iso 9241-210: 2019, iso 29110, ieee 830.'' in \emph{HCI-COLLAB}, 2022, pp. 83--93.
@@ -30,7 +30,7 @@ J.~S. Rodr{\'\i}guez-Cardiel, H.~Luna-Garc{\'\i}a, J.~M. Celaya-Padilla, L.~M. Z
 T.~Clemmensen, M.~Hertzum, K.~Hornb{\ae}k, Q.~Shi, and P.~Yammiyavar, ``Cultural cognition in usability evaluation,'' \emph{Interacting with computers}, vol.~21, no.~3, pp. 212--220, 2009.
 
 \bibitem{atata2025designing}
-R.~Atata and T.~Odedeyi, ``Designing inclusive interfaces: Enhancing user experience for people with disabilities through adaptive ui accessibility principles,'' 2025.
+R.~Atata and T.~Odedeyi, ``Designing inclusive interfaces: Enhancing user experience for people with disabilities through adaptive ui accessibility principles,'' \emph{Preprint}, 2025.
 
 \bibitem{salminen2021survey}
 J.~Salminen, K.~Guan, S.-G. Jung, and B.~J. Jansen, ``A survey of 15 years of data-driven persona development,'' \emph{International Journal of Human--Computer Interaction}, vol.~37, no.~18, pp. 1685--1708, 2021.
@@ -97,6 +97,38 @@ H.~Jonnalagadda. (2025, September) Samsung good lock: The ultimate guide to cust
 \bibitem{altexsoft_recommender_systems_personalization_2021}
 \BIBentryALTinterwordspacing
 {AltexSoft Editorial Team}. (2021, July) Recommender systems: Behind the scenes of machine learning-based personalization. AltexSoft. Accessed: 2026-01-27. [Online]. Available: \url{https://www.altexsoft.com/blog/recommender-system-personalization/?utm_source=chatgpt.com}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Understanding_the_design_process}
+\BIBentryALTinterwordspacing
+{Atlassian Editorial Team}. (2025, December) Understanding the design process: A simple step-by-step guide. Atlassian. [Online]. Available: \url{https://www.atlassian.com/agile/design/design-process}
+\BIBentrySTDinterwordspacing
+
+\bibitem{What_Does_a_Software_Developer_Do}
+\BIBentryALTinterwordspacing
+{geeksforgeeks Editorial Team}. (2024, January) What does a software developer do? geeksforgeeks. [Online]. Available: \url{https://www.geeksforgeeks.org/software-engineering/what-does-a-software-developer-do/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Requirements_Engineering_Process_in_Software_Engineering}
+\BIBentryALTinterwordspacing
+------. (2026, January) Requirements engineering process in software engineering. geeksforgeeks. [Online]. Available: \url{https://www.geeksforgeeks.org/software-engineering/software-engineering-requirements-engineering-process/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Stakeholders_in_Requirements_Engineering}
+R.~J.~W. Martin~Glinz, ``Stakeholders in requirements engineering,'' \emph{IEEE Software}, vol.~24, no.~2, pp. 18--19, 2007.
+
+\bibitem{Use_of_personas_in_Requirements_Engineering}
+D.~Karolita, J.~McIntosh, T.~Kanij, J.~Grundy, and H.~O. Obie, ``Use of personas in requirements engineering: A systematic mapping study,'' \emph{Information and Software Technology}, vol. 162, no. 107264, 2023.
+
+\bibitem{Use_Cases_for_Design_Personas}
+J.~Salminen, K.~W. Guan, S.-G. Jung, and B.~J. Jansen, ``Use cases for design personas: A systematic review and newfrontiers,'' in \emph{Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems}, 2022.
+
+\bibitem{Who_uses_personas_in_requirements_engineering}
+Y.~Wang, C.~Arora, X.~Liu, T.~Hoang, V.~Malhotra, B.~Cheng, and J.~Grundy, ``Who uses personas in requirements engineering: The practitioners’ perspective,'' \emph{Information and Software Technology}, vol. 178, no. 107609, 2025.
+
+\bibitem{Why_and_How_to_Use_Demographics_in_UX}
+\BIBentryALTinterwordspacing
+S.~Tankala. (2022, November) Why and how to use demographics in ux. NN/GROUP. [Online]. Available: \url{https://www.nngroup.com/articles/demographics-in-ux/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Smith2020}
