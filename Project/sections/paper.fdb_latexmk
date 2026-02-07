@@ -1,9 +1,0 @@
-# Fdb version 4
-["pdflatex"] 0 "paper.tex" "paper.pdf" "paper" 0 -1
-  "paper.aux" 0 -1 0 "pdflatex"
-  "paper.tex" 0 -1 0 ""
-  (generated)
-  "paper.aux"
-  "paper.log"
-  "paper.pdf"
-  (rewritten before read)
