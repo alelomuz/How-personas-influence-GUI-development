@@ -35,26 +35,14 @@ Most solution patterns for addressing such accessibility concerns are well known
 
 
 \subsection{Key Age-Related Aspects Affecting GUI Development}
-\subsubsection{Memory (Working and Long-Term Memory)}
-Working memory capacity varies with age, increasing through adolescence and declining in older adulthood. Limited working memory requires GUI implementations that reduce information load, avoid long action sequences, and support recognition over recall (e.g., visible system states and saved progress). Long-term memory influences how consistently users can reuse learned interaction patterns across sessions.
 
-\subsubsection{Cognitive Processing Speed}
-Cognitive processing speed improves into young adulthood and gradually slows with age. GUI development must therefore account for timing constraints such as response deadlines, animations, and interaction pacing. Older users benefit from longer timeouts and systems that do not rely on rapid reactions.
+An important aspect to consider during GUI development is the age of users. It influences attention span, memory and cognitive load capacity, as well as motor precision. These determine the users’ ways and abilities to interact with the system and contribute to decisions about architecture, event handling strategies, state management, and performance requirements.
 
-\subsubsection{Attention and Executive Control}
-Attention span and task-switching ability differ across life stages. Younger users may struggle with sustained attention, while older users may experience difficulty managing interruptions. These differences affect how developers implement multitasking, notifications, and interrupt-resilient system states.
+Due to the short attention span and limited working memory of children \cite{gathercole2004_working_memory}, interfaces for children are often simple, avoiding nested views and complicated workflows. As shown by Gathercole et al \cite{gathercole2004_working_memory}, children have lower motor precision; their accuracy in tapping and clicking is reduced. Therefore, event handling must be forgiving: buttons should ignore accidental or repeated clicks and should not require fast or highly precise reactions. Because children also have low tolerance for waiting, GUI development should ensure immediate feedback and smooth system performance to prevent confusion and keep users engaged.
 
-\subsubsection{Motor Abilities}
-Fine motor control develops throughout childhood and may decline in later life. GUI development must adjust input tolerance, gesture recognition, and sensitivity to repeated or accidental input. These considerations primarily influence event handling logic rather than visual layout.
+In contrast to children, adults generally exhibit fully developed motor abilities and higher working memory capacity, which support efficient task performance and multitasking \cite{gathercole2004_working_memory} \cite{kwon2022_finger_tapping} \cite{thompson2014_over_the_hill_24}. Consequently, adult users tend to expect high efficiency and advanced functionality from systems. From a development perspective, this requires support for parallel workflows, background processing, and multiple input methods (e.g., mouse and keyboard), enabling fast and flexible interaction.
 
-\subsubsection{Perceptual Abilities (Vision and Hearing)}
-Sensory changes affect how users perceive system feedback. From a development perspective, this impacts feedback mechanisms, multimodal output support, and reliance on single sensory channels for conveying critical system responses.
-
-\subsubsection{Learning Ability and Experience}
-Younger users tend to rely more on exploratory learning, while adults draw more heavily on prior experience. GUI development must balance discoverability with consistency, ensuring that interaction logic supports both initial learning and efficient reuse.
-
-\subsubsection{Error Handling and Risk Tolerance}
-Age influences how users perceive and recover from errors. Children and older adults benefit from strong error prevention and simple recovery mechanisms, whereas experienced adults tolerate more complex recovery strategies. This directly affects the implementation of undo functionality, confirmation dialogs, and system safeguards.
+Older adults are characterized by reduced cognitive processing speed and lower working memory capacity. Stability and predictability are especially important—systems should provide consistent response times, avoid navigation changes, and minimize complex interaction patterns \cite{li2020_older_adults_mobile_usability}. Clear feedback and confirmations of actions (e.g., confirming that a document has been uploaded) are essential to support confidence and prevent uncertainty. Additionally, due to reduced motor precision, interfaces should be less sensitive to input, with larger clickable areas and tolerance for slower or less precise interactions, as well as support for voice interaction \cite{amouzadeh2025_optimizing_mobile_app}\cite{kwon2022_finger_tapping}.
 
 \subsubsection{Cultural Differences in Interaction Design}
 
@@ -108,33 +96,6 @@ Some cultures demand explicit consent and transparency (e.g., Germany, EU),
 whereas others show higher acceptance of data collection when it enables convenience
 (e.g., China, South Korea). \emph{\underline{linking to regulations in prev section}}
 \subsubsection{Disability and Accessibility at the Individual Level}
-
-\subsection{Disabilities and Accessibility Needs}
-\begin{itemize}
-    \item Accessibility influences GUI architecture: 
-    Disabilities require GUIs to be implemented with semantic structure and accessible APIs so that interface elements can be interpreted and controlled by assistive technologies, not only visually rendered.
-
-    \item Assistive technologies impose technical requirements: 
-    Screen readers and alternative input devices depend on explicit programmatic roles, states, and labels, which developers must define in the code for correct interaction.
-
-    \item Keyboard accessibility affects interaction logic: 
-    Motor disabilities require full keyboard operability, influencing event handling, focus management, and navigation logic during implementation.
-
-    \item Cognitive disabilities affect state and flow control: 
-    GUI logic must be predictable, avoid unexpected state changes, and provide clear error handling to support users with cognitive or neurological disabilities.
-
-    \item Sensory disabilities affect data representation: 
-    Visual and hearing impairments require text alternatives, non-audio alerts, and scalable content, impacting layout behavior and notification logic.
-
-    \item Performance impacts accessibility: 
-    Assistive technologies rely on stable and efficient rendering, meaning poor state management or excessive updates can reduce accessibility.
-
-    \item Accessibility standards define implementation rules: 
-    Standards such as Web Content Accessibility Guidelines (WCAG) translate into concrete development requirements that are testable and enforceable.
-
-    \item Accessibility reduces long-term technical debt: 
-    Integrating accessibility during development leads to modular components, cleaner logic, and improved maintainability compared to retrofitting later.
-\end{itemize}
 
 % --------------------------------------------------------------------%
 
