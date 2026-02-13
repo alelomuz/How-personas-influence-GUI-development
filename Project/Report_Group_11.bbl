@@ -34,23 +34,26 @@
   Available: \url{https://en.wikipedia.org/wiki/Graphical_user_interface}
 \BIBentrySTDinterwordspacing
 
+\bibitem{watve2023importance}
+\BIBentryALTinterwordspacing
+K.~Watve. (2023, Nov.) The importance of user-centered design in ui. Medium, 3
+  min read. [Online]. Available:
+  \url{https://medium.com/@hello_90854/the-importance-of-user-centered-design-in-ui-31435a0d03a2}
+\BIBentrySTDinterwordspacing
+
 \bibitem{wikipedia_persona_user_experience}
 \BIBentryALTinterwordspacing
-------. (2026) Persona (user experience). Wikipedia. [Online]. Available:
+{Wikipedia contributors}. (2026) Persona (user experience). Wikipedia.
+  [Online]. Available:
   \url{https://en.wikipedia.org/wiki/Persona_(user_experience)}
 \BIBentrySTDinterwordspacing
 
-\bibitem{wikipedia_adaptive_user_interface}
+\bibitem{uxdt_developing_user_personas}
 \BIBentryALTinterwordspacing
-------. (2026) Adaptive user interface. Wikipedia. [Online]. Available:
-  \url{https://en.wikipedia.org/wiki/Adaptive_user_interface}
-\BIBentrySTDinterwordspacing
-
-\bibitem{geeksforgeeks_personalization_uiux_2023}
-\BIBentryALTinterwordspacing
-{GeeksforGeeks}. (2023, Nov.) Importance of personalization in ui/ux design.
-  GeeksforGeeks. [Online]. Available:
-  \url{https://www.geeksforgeeks.org/websites-apps/importance-of-personalization-in-ui-ux-design}
+{UxDT Division}. (2026) Developing user personas. UI/UX Guidelines, User
+  Experience Design \& Technology Division, National Informatics Centre.
+  [Online]. Available:
+  \url{https://www.uxdt.nic.in/guidelines/the-ux-design-process/developing-user-personas}
 \BIBentrySTDinterwordspacing
 
 \bibitem{shneiderman2010designing}
@@ -102,11 +105,25 @@ J.~Pruitt and J.~Grudin, ``Personas: practice and theory,'' in
   \emph{Proceedings of the 2003 conference on Designing for user experiences},
   2003, pp. 1--15.
 
+\bibitem{mathuram2023demographics_uiux}
+\BIBentryALTinterwordspacing
+M.~N. (2023, May) Understanding your audience: How demographics influence ui/ux
+  design. Ambian Studio blog — 8 min read. [Online]. Available:
+  \url{https://ambianstudio.com/understanding-your-audience-how-demographics-influence-ui-ux-design}
+\BIBentrySTDinterwordspacing
+
 \bibitem{clustox_netflix_case_study_2025}
 \BIBentryALTinterwordspacing
 N.~Tariq. (2025, September) Netflix architecture case study: How does the
   world's largest streamer build for scale? Clustox. [Online]. Available:
   \url{https://www.clustox.com/blog/netflix-case-study/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{roberts2025_ui_design_without_chaos}
+\BIBentryALTinterwordspacing
+R.~Roberts. (2025, Jun.) Ui design without chaos: Structure, grids, modularity.
+  Code \& Pixels — UX/UI Design article. [Online]. Available:
+  \url{https://api-lib.com/ux-ui-design/ui-design-without-chaos-structure-grids-modularity}
 \BIBentrySTDinterwordspacing
 
 \bibitem{phrase_ux_localization_user_experience_2023}
@@ -190,6 +207,48 @@ Q.~Li and Y.~Luximon, ``Older adults’ use of mobile device: usability
 E.~Amouzadeh, I.~Dianat, J.~Faradmal, and M.~Babamiri, ``Optimizing mobile app
   design for older adults: systematic review of age-friendly design,''
   \emph{Aging Clinical and Experimental Research}, vol.~37, p. 248, 2025.
+
+\bibitem{cambridge_culture_definition}
+\BIBentryALTinterwordspacing
+{Cambridge Dictionary}. (2026) Culture. Cambridge University Press. [Online].
+  Available: \url{https://dictionary.cambridge.org/dictionary/english/culture}
+\BIBentrySTDinterwordspacing
+
+\bibitem{hofstede2001_cultures_consequences}
+G.~Hofstede, \emph{Culture's Consequences: Comparing Values, Behaviors,
+  Institutions and Organizations Across Nations}, 2nd~ed.\hskip 1em plus 0.5em
+  minus 0.4em\relax Sage Publications, 2001.
+
+\bibitem{makipaa2025_uncertainty_avoidance_ui}
+J.-P. Mäkipää, R.~A. Rousi, and M.~Vartiainen, ``Exploring effects of
+  uncertainty avoidance in self-service technology user interface design in
+  japan and finland,'' \emph{FAIA (Frontiers in Artificial Intelligence and
+  Applications)}, vol. 241, pp. 152--160, 2025.
+
+\bibitem{singh2002_cultural_dimensions_global_ui}
+N.~Singh and A.~Pereira, ``Cultural dimensions and global web user interface
+  design: What, so what, now what?'' \emph{Journal of Computer Information
+  Systems}, vol.~42, no.~1, pp. 54--61, 2002.
+
+\bibitem{wikipedia_high_low_context}
+\BIBentryALTinterwordspacing
+{Wikipedia contributors}. (2026) High-context and low-context cultures.
+  Wikimedia Foundation. [Online]. Available:
+  \url{https://en.wikipedia.org/wiki/High-context_and_low-context_cultures}
+\BIBentrySTDinterwordspacing
+
+\bibitem{wikipedia_adaptive_user_interface}
+\BIBentryALTinterwordspacing
+------. (2026) Adaptive user interface. Wikipedia. [Online]. Available:
+  \url{https://en.wikipedia.org/wiki/Adaptive_user_interface}
+\BIBentrySTDinterwordspacing
+
+\bibitem{geeksforgeeks_personalization_uiux_2023}
+\BIBentryALTinterwordspacing
+{GeeksforGeeks}. (2023, Nov.) Importance of personalization in ui/ux design.
+  GeeksforGeeks. [Online]. Available:
+  \url{https://www.geeksforgeeks.org/websites-apps/importance-of-personalization-in-ui-ux-design}
+\BIBentrySTDinterwordspacing
 
 \bibitem{apostol2024ux}
 \BIBentryALTinterwordspacing

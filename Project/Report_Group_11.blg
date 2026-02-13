@@ -8,7 +8,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
-Repeated entry---line 507 of file references.bib
+Repeated entry---line 506 of file references.bib
  : @inproceedings{pruitt2003personas
  :                                  ,
 I'm skipping whatever remains of this entry
@@ -18,45 +18,45 @@ I'm skipping whatever remains of this entry
 Warning--empty journal in winter2025design
 
 Done.
-You've used 55 entries,
+You've used 64 entries,
             4087 wiz_defined-function locations,
-            1124 strings with 17689 characters,
-and the built_in function-call counts, 29192 in all, are:
-= -- 2469
-> -- 561
-< -- 130
-+ -- 291
-- -- 114
-* -- 1186
-:= -- 4992
-add.period$ -- 139
-call.type$ -- 55
-change.case$ -- 56
-chr.to.int$ -- 261
-cite$ -- 56
-duplicate$ -- 2197
-empty$ -- 2499
-format.name$ -- 135
-if$ -- 6650
+            1169 strings with 19487 characters,
+and the built_in function-call counts, 33643 in all, are:
+= -- 2852
+> -- 627
+< -- 151
++ -- 325
+- -- 126
+* -- 1353
+:= -- 5772
+add.period$ -- 163
+call.type$ -- 64
+change.case$ -- 69
+chr.to.int$ -- 309
+cite$ -- 65
+duplicate$ -- 2531
+empty$ -- 2882
+format.name$ -- 149
+if$ -- 7656
 int.to.chr$ -- 0
-int.to.str$ -- 55
-missing$ -- 450
-newline$ -- 244
-num.names$ -- 55
-pop$ -- 1105
+int.to.str$ -- 64
+missing$ -- 519
+newline$ -- 283
+num.names$ -- 64
+pop$ -- 1278
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2334
+skip$ -- 2690
 stack$ -- 0
-substring$ -- 671
-swap$ -- 1629
-text.length$ -- 43
+substring$ -- 785
+swap$ -- 1873
+text.length$ -- 48
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 55
+type$ -- 64
 warning$ -- 1
-while$ -- 107
-width$ -- 57
-write$ -- 587
+while$ -- 125
+width$ -- 66
+write$ -- 681
 (There was 1 error message)

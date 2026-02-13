@@ -1,15 +1,15 @@
 \subsection{What is Population-Level Adaptation?}
-Population-level adaptation refers to system-wide GUI decisions, implemented at design-time, that are based on aggregated demographic data or dominant personas, and apply to all users; for example, choosing which interface languages Netflix supports and offers to its users. Such design-time decisions are typically embedded into the system and are often quite difficult to modify once the product is deployed. Therefore, making the right assumptions about the target user population, based on the best available data, is crucial to ensure the GUI meets most users' needs.
+Population-level adaptation refers to system-wide GUI decisions, implemented at design-time, that are based on aggregated demographic data or dominant personas, and apply to all users; for example, choosing which interface languages Netflix supports and offers to its users. Such design-time decisions are typically embedded into the system and are often quite difficult to modify once the product is deployed. Therefore, making the right assumptions about the target user population, based on the best available data, is crucial to ensure the GUI meets most users' needs. \cite{mathuram2023demographics_uiux}
 
 \subsection{Architectural Decisions: Modularity and Configurability}
 % Building a Modular System
-Building a modular system by design — in terms of code structure, application logic, and visual layout — makes it easier to adapt to new demographic or persona insights (e.g., supported languages, payment methods, sign-in options). For example, if the target demographic includes users from different countries, it is better to not hard-code the text directly into the UI, but instead to store it in external language files, which are then loaded depending on the region or the language preference of the user. 
+Building a modular system by design — in terms of code structure, application logic, and visual layout — makes it easier to adapt to new demographic or persona insights (e.g., supported languages, payment methods, sign-in options). For example, if the target demographic includes users from different countries, it is better to not hard-code the text directly into the UI, but instead to store it in external language files, which are then loaded depending on the region or the language preference of the user.
 
 % Pros and Cons - Higher initial effort pays off
 Decisions of this kind strongly affect the system's abstraction levels and testing scope. While a robust architecture demands higher initial effort to design and implement compared to a more straightforward solution, it generally pays off in the long run, by making the product easier to maintain and scale.
 
 % Example: Netflix Modular -> Microservice
-A widely known example of this modular approach is Netflix's microservice architecture. When Netflix launched its streaming service in 2007 it adopted a monolithic architecture in which all components were tightly coupled and deployed as a single unit. In 2009, following a major outage in 2008, Netflix began migrating to a microservice architecture to address scalability and reliability issues and to facilitate their rapid expansion as a company. The platform was decomposed into many independently deployable services, increasing flexibility and simplifying future updates. \cite{clustox_netflix_case_study_2025}
+A widely known example of this modular approach is Netflix's microservice architecture. When Netflix launched its streaming service in 2007 it adopted a monolithic architecture in which all components were tightly coupled and deployed as a single unit. In 2009, following a major outage in 2008, Netflix began migrating to a microservice architecture to address scalability and reliability issues and to facilitate their rapid expansion as a company. The platform was decomposed into many independently deployable services, increasing flexibility and simplifying future updates. \cite{clustox_netflix_case_study_2025} \cite{roberts2025_ui_design_without_chaos}
 
 \subsection{Country- and Region-Specific Requirements}
 % Concept
@@ -34,7 +34,7 @@ Most solution patterns for addressing such accessibility concerns are well known
 
 
 
-\subsection{Key Age-Related Aspects Affecting GUI Development}
+\subsection{Age-Related Aspects}
 
 An important aspect to consider during GUI development is the age of users. It influences attention span, memory and cognitive load capacity, as well as motor precision. These determine the users’ ways and abilities to interact with the system and contribute to decisions about architecture, event handling strategies, state management, and performance requirements.
 
@@ -44,61 +44,18 @@ In contrast to children, adults generally exhibit fully developed motor abilitie
 
 Older adults are characterized by reduced cognitive processing speed and lower working memory capacity. Stability and predictability are especially important—systems should provide consistent response times, avoid navigation changes, and minimize complex interaction patterns \cite{li2020_older_adults_mobile_usability}. Clear feedback and confirmations of actions (e.g., confirming that a document has been uploaded) are essential to support confidence and prevent uncertainty. Additionally, due to reduced motor precision, interfaces should be less sensitive to input, with larger clickable areas and tolerance for slower or less precise interactions, as well as support for voice interaction \cite{amouzadeh2025_optimizing_mobile_app}\cite{kwon2022_finger_tapping}.
 
-\subsubsection{Cultural Differences in Interaction Design}
 
-\subsection{Cultural Influences on GUI Development}
+\subsection{Cultural Influences}
 
-\subsubsection{Mental Models and User Expectations}
-Users from different cultures hold distinct assumptions about how systems should behave.
-Low-context cultures (e.g., United States, Northern Europe) expect self-explanatory interfaces
-and tolerate trial-and-error learning, whereas high-context cultures (e.g., Japan, South Korea)
-expect explicit guidance and structured onboarding.
+Culture, defined as the way of life, especially the general customs and beliefs of a particular group of people at a particular time, can also influence GUI development \cite{cambridge_culture_definition}.
 
-\subsubsection{Information Density and Structural Preference}
-Cultural background influences tolerance for information density.
-Some cultures prefer simplified interfaces with progressive disclosure (e.g., Germany, Scandinavia),
-while others are comfortable with dense layouts presenting multiple options simultaneously
-(e.g., China, South Korea).
+One of the cultural aspects influencing GUI development is uncertainty avoidance. In cultures such as Japan or South Korea, people tend to prefer predictable outcomes, clear rules, and low levels of ambiguity \cite{hofstede2001_cultures_consequences}. Research further shows that this tendency also applies to digital systems, where users expect structured interaction and clear guidance \cite{makipaa2025_uncertainty_avoidance_ui},\cite{singh2002_cultural_dimensions_global_ui}.
 
-\subsubsection{Navigation Logic}
-Cultures differ in preferred navigation flow.
-Process-oriented cultures (e.g., Germany, Austria) favor linear, step-by-step workflows,
-whereas more flexible cultures (e.g., India, Southeast Asia) expect non-linear navigation
-and the ability to move freely between tasks.
+For GUI development, this may mean focusing more on error prevention rather than correcting mistakes afterward, for example disabling buttons until all required fields are completed, validating input before allowing submission, or asking for confirmation before executing important actions. In cultures with lower uncertainty avoidance (e.g., the United States or Canada), users may be more comfortable with immediate actions and recovery options such as undo functionality \cite{hofstede2001_cultures_consequences}.
 
-\subsubsection{Error Handling and Feedback Style}
-Attitudes toward errors vary culturally.
-In individualistic cultures (e.g., United States, Australia), errors are considered normal and
-direct feedback is acceptable. In collectivist cultures (e.g., Japan, China), errors are socially
-sensitive and feedback is often indirect and solution-focused.
+Another relevant cultural distinction is between high-context and low-context communication styles. Low-context cultures, such as Germany or Scandinavian countries, are characterized by direct communication, and people often expect information to be stated explicitly \cite{wikipedia_high_low_context}. In terms of UI development, this may require clear validation messages, transparent state changes, and event logic that explicitly informs users about system actions and outcomes.
 
-\subsubsection{Authority and Control (Power Distance)}
-Power distance affects expectations of system control.
-Low power-distance cultures (e.g., Netherlands, Denmark) expect autonomy and customization,
-while high power-distance cultures (e.g., China, Russia, Arab countries) tend to trust system
-defaults and administrator-driven decisions.
-
-\subsubsection{Time Orientation}
-Cultural perception of time influences task management.
-Monochronic cultures (e.g., United States, Germany) favor sequential task completion and
-clear progress indicators, whereas polychronic cultures (e.g., Brazil, Mexico, Middle East)
-prefer flexible task switching and parallel workflows.
-
-\subsubsection{Language Structure Effects Beyond Translation}
-Language structure shapes interaction logic.
-Verb-oriented languages (e.g., English, German) emphasize action-based commands,
-while context- and noun-oriented languages (e.g., Japanese, Korean) often require
-object or state definition before action.
-
-\subsubsection{Privacy and Data Sensitivity Norms}
-Cultural norms influence privacy expectations.
-Some cultures demand explicit consent and transparency (e.g., Germany, EU),
-whereas others show higher acceptance of data collection when it enables convenience
-(e.g., China, South Korea). \emph{\underline{linking to regulations in prev section}}
-\subsubsection{Disability and Accessibility at the Individual Level}
-
-% --------------------------------------------------------------------%
-
+In contrast, in high-context cultures such as Japan, feedback, validation details, and state information may be less explicit \cite{wikipedia_high_low_context}.
 
 
 

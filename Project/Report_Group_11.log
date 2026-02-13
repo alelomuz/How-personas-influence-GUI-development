@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.20)  13 FEB 2026 18:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.20)  13 FEB 2026 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -472,7 +472,7 @@ ocal/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 ]
 
-<figures/Demographics-vs-personas.png, id=185, 665.48625pt x 666.49pt>
+<figures/Demographics-vs-personas.png, id=145, 665.48625pt x 666.49pt>
 File: figures/Demographics-vs-personas.png Graphic file (type png)
 <use figures/Demographics-vs-personas.png>
 Package pdftex.def Info: figures/Demographics-vs-personas.png  used on input li
@@ -484,14 +484,9 @@ ne 36.
 
 
 
-[3]
-Underfull \hbox (badness 6477) in paragraph at lines 94--98
-\T1/ptm/m/n/10 plicit con-sent and trans-parency (e.g., Ger-many, EU),
- []
+[3])
 
-
-
-) (./sections/ind_lvl_adpt.tex
+(./sections/ind_lvl_adpt.tex
 
 [4]) (./sections/prcs_val_infl.tex
 
@@ -501,29 +496,35 @@ Underfull \hbox (badness 6477) in paragraph at lines 94--98
 
 
 
-[6]) (./sections/conclusion.tex
+[6]) (./sections/conclusion.tex)
 
-) (./Report_Group_11.bbl
+(./Report_Group_11.bbl
+Overfull \hbox (2.79817pt too wide) in paragraph at lines 110--114
+\T1/ptm/m/n/8 understanding-[]your-[]audience-[]how-[]demographics-[]in^^]uence
+-[]ui-[]ux-[]design$[] 
+ []
+
+
 
 [7]
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 266--270
+Underfull \hbox (badness 1629) in paragraph at lines 325--329
 []\T1/ptm/m/n/8 geeksforgeeks Ed-i-to-rial Team. (2024, Jan-uary) What
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 273--277
+Underfull \hbox (badness 1400) in paragraph at lines 332--336
 []\T1/ptm/m/n/8 ------. (2026, Jan-uary) Re-quire-ments en-gi-neer-ing pro-
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 273--277
+Underfull \hbox (badness 2495) in paragraph at lines 332--336
 \T1/ptm/m/n/8 cess in soft-ware en-gi-neer-ing. geeks-forgeeks. [On-
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 321--323
+Underfull \hbox (badness 1931) in paragraph at lines 380--382
 []\T1/ptm/m/n/8 FuseLab Cre-ative, ``The fu-ture of ai-constructed de-sign,'' [
 ]$https : / /
  []
@@ -548,25 +549,25 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `Report_Group_11.out' has not changed.
-(rerunfilecheck)             Checksum: 6C6C2B34ED12CDF1D81438FBD8DB7248;9060.
+(rerunfilecheck)             Checksum: 6C12CFF967C61A276FA06AA448A484FB;6220.
  ) 
 Here is how much of TeX's memory you used:
- 11665 strings out of 473190
- 182208 string characters out of 5715800
- 608187 words of memory out of 5000000
- 34644 multiletter control sequences out of 15000+600000
+ 11663 strings out of 473190
+ 182421 string characters out of 5715800
+ 611752 words of memory out of 5000000
+ 34643 multiletter control sequences out of 15000+600000
  671535 words of font info for 160 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,1359b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,1359b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/loca
 l/texlive/2025/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive
 /2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report_Group_11.pdf (8 pages, 333802 bytes).
+Output written on Report_Group_11.pdf (8 pages, 334416 bytes).
 PDF statistics:
- 425 PDF objects out of 1000 (max. 8388607)
- 399 compressed objects within 4 object streams
- 108 named destinations out of 1000 (max. 500000)
- 302 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 418 PDF objects out of 1000 (max. 8388607)
+ 392 compressed objects within 4 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 222 words of extra memory for PDF output out of 10000 (max. 10000000)
 
