@@ -7,8 +7,7 @@
 \providecommand{\BIBentrySTDinterwordspacing}{\spaceskip=0pt\relax}
 \providecommand{\BIBentryALTinterwordstretchfactor}{4}
 \providecommand{\BIBentryALTinterwordspacing}{\spaceskip=\fontdimen2\font plus
-\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
-  \fontdimen4\font\relax}
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus \fontdimen4\font\relax}
 \providecommand{\BIBforeignlanguage}[2]{{%
 \expandafter\ifx\csname l@#1\endcsname\relax
 \typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
@@ -23,298 +22,265 @@
 
 \bibitem{claritee_ui_design_vs_ui_development_2024}
 \BIBentryALTinterwordspacing
-{Claritee}. (2024, Dec.) Ui design vs. ui development: Clarifying the
-  distinction. Claritee.io. [Online]. Available:
-  \url{https://claritee.io/blog/ui-design-vs-ui-development-clarifying-the-distinction}
+{Claritee}. (2024, Dec.) Ui design vs. ui development: Clarifying the distinction. Claritee.io. [Online]. Available: \url{https://claritee.io/blog/ui-design-vs-ui-development-clarifying-the-distinction}
 \BIBentrySTDinterwordspacing
 
 \bibitem{wikipedia_graphical_user_interface}
 \BIBentryALTinterwordspacing
-{Wikipedia contributors}. (2026) Graphical user interface. Wikipedia. [Online].
-  Available: \url{https://en.wikipedia.org/wiki/Graphical_user_interface}
+{Wikipedia contributors}. (2026) Graphical user interface. Wikipedia. [Online]. Available: \url{https://en.wikipedia.org/wiki/Graphical_user_interface}
+\BIBentrySTDinterwordspacing
+
+\bibitem{watve2023importance}
+\BIBentryALTinterwordspacing
+K.~Watve. (2023, Nov.) The importance of user-centered design in ui. Medium, 3 min read. [Online]. Available: \url{https://medium.com/@hello_90854/the-importance-of-user-centered-design-in-ui-31435a0d03a2}
 \BIBentrySTDinterwordspacing
 
 \bibitem{wikipedia_persona_user_experience}
 \BIBentryALTinterwordspacing
-------. (2026) Persona (user experience). Wikipedia. [Online]. Available:
-  \url{https://en.wikipedia.org/wiki/Persona_(user_experience)}
+{Wikipedia contributors}. (2026) Persona (user experience). Wikipedia. [Online]. Available: \url{https://en.wikipedia.org/wiki/Persona_(user_experience)}
 \BIBentrySTDinterwordspacing
 
-\bibitem{wikipedia_adaptive_user_interface}
+\bibitem{uxdt_developing_user_personas}
 \BIBentryALTinterwordspacing
-------. (2026) Adaptive user interface. Wikipedia. [Online]. Available:
-  \url{https://en.wikipedia.org/wiki/Adaptive_user_interface}
-\BIBentrySTDinterwordspacing
-
-\bibitem{geeksforgeeks_personalization_uiux_2023}
-\BIBentryALTinterwordspacing
-{GeeksforGeeks}. (2023, Nov.) Importance of personalization in ui/ux design.
-  GeeksforGeeks. [Online]. Available:
-  \url{https://www.geeksforgeeks.org/websites-apps/importance-of-personalization-in-ui-ux-design}
+{UxDT Division}. (2026) Developing user personas. UI/UX Guidelines, User Experience Design \& Technology Division, National Informatics Centre. [Online]. Available: \url{https://www.uxdt.nic.in/guidelines/the-ux-design-process/developing-user-personas}
 \BIBentrySTDinterwordspacing
 
 \bibitem{shneiderman2010designing}
-B.~Shneiderman, \emph{Designing the user interface: strategies for effective
-  human-computer interaction}.\hskip 1em plus 0.5em minus 0.4em\relax Pearson
-  Education India, 2010.
+B.~Shneiderman, \emph{Designing the user interface: strategies for effective human-computer interaction}.\hskip 1em plus 0.5em minus 0.4em\relax Pearson Education India, 2010.
 
 \bibitem{henderson2002interaction}
-A.~Henderson, ``Interaction design: beyond human-computer interaction,''
-  \emph{Ubiquity}, vol. 2002, no. March, p.~2, 2002.
+A.~Henderson, ``Interaction design: beyond human-computer interaction,'' \emph{Ubiquity}, vol. 2002, no. March, p.~2, 2002.
 
 \bibitem{fowler2012patterns}
-M.~Fowler, \emph{Patterns of enterprise application architecture}.\hskip 1em
-  plus 0.5em minus 0.4em\relax Addison-Wesley, 2012.
+M.~Fowler, \emph{Patterns of enterprise application architecture}.\hskip 1em plus 0.5em minus 0.4em\relax Addison-Wesley, 2012.
 
 \bibitem{world2008web}
-W.~W.~W. Consortium \emph{et~al.}, ``Web content accessibility guidelines
-  (wcag) 2.0,'' \emph{World Wide Web Consortium}, 2008.
+W.~W.~W. Consortium \emph{et~al.}, ``Web content accessibility guidelines (wcag) 2.0,'' \emph{World Wide Web Consortium}, 2008.
 
 \bibitem{rodriguez2022prototype}
-J.~S. Rodr{\'\i}guez-Cardiel, H.~Luna-Garc{\'\i}a, J.~M. Celaya-Padilla, L.~M.
-  Zapata-Alvarado, J.~Ram{\'\i}rez-Carrillo, J.~F. Hern{\'a}ndez-Serrano, and
-  L.~E. Salcedo-Bugar{\'\i}n, ``Prototype user interface for an automatic sheep
-  weighing control system: Implementing iso 9241-210: 2019, iso 29110, ieee
-  830.'' in \emph{HCI-COLLAB}, 2022, pp. 83--93.
+J.~S. Rodr{\'\i}guez-Cardiel, H.~Luna-Garc{\'\i}a, J.~M. Celaya-Padilla, L.~M. Zapata-Alvarado, J.~Ram{\'\i}rez-Carrillo, J.~F. Hern{\'a}ndez-Serrano, and L.~E. Salcedo-Bugar{\'\i}n, ``Prototype user interface for an automatic sheep weighing control system: Implementing iso 9241-210: 2019, iso 29110, ieee 830.'' in \emph{HCI-COLLAB}, 2022, pp. 83--93.
 
 \bibitem{clemmensen2009cultural}
-T.~Clemmensen, M.~Hertzum, K.~Hornb{\ae}k, Q.~Shi, and P.~Yammiyavar,
-  ``Cultural cognition in usability evaluation,'' \emph{Interacting with
-  computers}, vol.~21, no.~3, pp. 212--220, 2009.
+T.~Clemmensen, M.~Hertzum, K.~Hornb{\ae}k, Q.~Shi, and P.~Yammiyavar, ``Cultural cognition in usability evaluation,'' \emph{Interacting with computers}, vol.~21, no.~3, pp. 212--220, 2009.
 
 \bibitem{atata2025designing}
-R.~Atata and T.~Odedeyi, ``Designing inclusive interfaces: Enhancing user
-  experience for people with disabilities through adaptive ui accessibility
-  principles,'' \emph{Preprint}, 2025.
+R.~Atata and T.~Odedeyi, ``Designing inclusive interfaces: Enhancing user experience for people with disabilities through adaptive ui accessibility principles,'' \emph{Preprint}, 2025.
 
 \bibitem{salminen2021survey}
-J.~Salminen, K.~Guan, S.-G. Jung, and B.~J. Jansen, ``A survey of 15 years of
-  data-driven persona development,'' \emph{International Journal of
-  Human--Computer Interaction}, vol.~37, no.~18, pp. 1685--1708, 2021.
+J.~Salminen, K.~Guan, S.-G. Jung, and B.~J. Jansen, ``A survey of 15 years of data-driven persona development,'' \emph{International Journal of Human--Computer Interaction}, vol.~37, no.~18, pp. 1685--1708, 2021.
 
 \bibitem{gomez2023design}
-M.~Gomez-Hernandez, X.~Ferre, C.~Moral, and E.~Villalba-Mora, ``Design
-  guidelines of mobile apps for older adults: systematic review and thematic
-  analysis,'' \emph{JMIR mHealth and uHealth}, vol.~11, p. e43186, 2023.
+M.~Gomez-Hernandez, X.~Ferre, C.~Moral, and E.~Villalba-Mora, ``Design guidelines of mobile apps for older adults: systematic review and thematic analysis,'' \emph{JMIR mHealth and uHealth}, vol.~11, p. e43186, 2023.
 
 \bibitem{wagner2014impact}
-N.~Wagner, K.~Hassanein, and M.~Head, ``The impact of age on website
-  usability,'' \emph{Computers in Human Behavior}, vol.~37, pp. 270--282, 2014.
+N.~Wagner, K.~Hassanein, and M.~Head, ``The impact of age on website usability,'' \emph{Computers in Human Behavior}, vol.~37, pp. 270--282, 2014.
 
 \bibitem{howard2015personas}
-T.~W. Howard, ``Are personas really usable?'' \emph{Communication Design
-  Quarterly Review}, vol.~3, no.~2, pp. 20--26, 2015.
+T.~W. Howard, ``Are personas really usable?'' \emph{Communication Design Quarterly Review}, vol.~3, no.~2, pp. 20--26, 2015.
+
+\bibitem{mathuram2023demographics_uiux}
+\BIBentryALTinterwordspacing
+M.~N. (2023, May) Understanding your audience: How demographics influence ui/ux design. Ambian Studio blog — 8 min read. [Online]. Available: \url{https://ambianstudio.com/understanding-your-audience-how-demographics-influence-ui-ux-design}
+\BIBentrySTDinterwordspacing
 
 \bibitem{clustox_netflix_case_study_2025}
 \BIBentryALTinterwordspacing
-N.~Tariq. (2025, September) Netflix architecture case study: How does the
-  world's largest streamer build for scale? Clustox. [Online]. Available:
-  \url{https://www.clustox.com/blog/netflix-case-study/}
+N.~Tariq. (2025, September) Netflix architecture case study: How does the world's largest streamer build for scale? Clustox. [Online]. Available: \url{https://www.clustox.com/blog/netflix-case-study/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{roberts2025_ui_design_without_chaos}
+\BIBentryALTinterwordspacing
+R.~Roberts. (2025, Jun.) Ui design without chaos: Structure, grids, modularity. Code \& Pixels — UX/UI Design article. [Online]. Available: \url{https://api-lib.com/ux-ui-design/ui-design-without-chaos-structure-grids-modularity}
 \BIBentrySTDinterwordspacing
 
 \bibitem{phrase_ux_localization_user_experience_2023}
 \BIBentryALTinterwordspacing
-P.~Ghosal. (2023, Nov.) Ux localization: Adapting the user experience for
-  international audiences. Phrase. [Online]. Available:
-  \url{https://phrase.com/blog/posts/app-localization-developers-guide-to-user-experience}
+P.~Ghosal. (2023, Nov.) Ux localization: Adapting the user experience for international audiences. Phrase. [Online]. Available: \url{https://phrase.com/blog/posts/app-localization-developers-guide-to-user-experience}
 \BIBentrySTDinterwordspacing
 
 \bibitem{ulg_airbnb_localization}
 \BIBentryALTinterwordspacing
-{United Language Group}. (2017) Airbnb's localization strategy. Originally
-  published August 2017; updated version. [Online]. Available:
-  \url{https://www.unitedlanguagegroup.com/blog/airbnb-localization-strategy}
+{United Language Group}. (2017) Airbnb's localization strategy. Originally published August 2017; updated version. [Online]. Available: \url{https://www.unitedlanguagegroup.com/blog/airbnb-localization-strategy}
 \BIBentrySTDinterwordspacing
 
 \bibitem{nngroup_inclusive_design_2022}
 \BIBentryALTinterwordspacing
-A.~Kendrick. (2022, Jan.) Inclusive design. Nielsen Norman Group. [Online].
-  Available: \url{https://www.nngroup.com/articles/inclusive-design}
+A.~Kendrick. (2022, Jan.) Inclusive design. Nielsen Norman Group. [Online]. Available: \url{https://www.nngroup.com/articles/inclusive-design}
 \BIBentrySTDinterwordspacing
 
 \bibitem{w3c_wai_accessibility_principles_2024}
 \BIBentryALTinterwordspacing
-{World Wide Web Consortium (W3C) Web Accessibility Initiative}. (2024, Jul.)
-  Accessibility principles. W3C. [Online]. Available:
-  \url{https://www.w3.org/WAI/fundamentals/accessibility-principles/}
+{World Wide Web Consortium (W3C) Web Accessibility Initiative}. (2024, Jul.) Accessibility principles. W3C. [Online]. Available: \url{https://www.w3.org/WAI/fundamentals/accessibility-principles/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{w3c_wcag_2_1_2025}
 \BIBentryALTinterwordspacing
-{World Wide Web Consortium (W3C) Accessibility Guidelines Working Group}.
-  (2025, May) Web content accessibility guidelines (wcag) 2.1. World Wide Web
-  Consortium (W3C). [Online]. Available: \url{https://www.w3.org/TR/WCAG21/}
+{World Wide Web Consortium (W3C) Accessibility Guidelines Working Group}. (2025, May) Web content accessibility guidelines (wcag) 2.1. World Wide Web Consortium (W3C). [Online]. Available: \url{https://www.w3.org/TR/WCAG21/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{w3c_wai_wcag_overview_2025}
 \BIBentryALTinterwordspacing
-{World Wide Web Consortium (W3C) Web Accessibility Initiative}. (2025, Oct.)
-  Wcag 2 overview – web content accessibility guidelines. World Wide Web
-  Consortium (W3C). [Online]. Available:
-  \url{https://www.w3.org/WAI/standards-guidelines/wcag/}
+{World Wide Web Consortium (W3C) Web Accessibility Initiative}. (2025, Oct.) Wcag 2 overview – web content accessibility guidelines. World Wide Web Consortium (W3C). [Online]. Available: \url{https://www.w3.org/WAI/standards-guidelines/wcag/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{wikipedia_web_content_accessibility_guidelines}
 \BIBentryALTinterwordspacing
-{Wikipedia contributors}. (2026) Web content accessibility guidelines.
-  Wikipedia. [Online]. Available:
-  \url{https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines}
+{Wikipedia contributors}. (2026) Web content accessibility guidelines. Wikipedia. [Online]. Available: \url{https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines}
 \BIBentrySTDinterwordspacing
 
 \bibitem{wikipedia_world_wide_web_consortium_de}
 \BIBentryALTinterwordspacing
-{Wikipedia-Autor:innen}. (2026) World wide web consortium. Wikipedia. Deutsche
-  Wikipedia, abgerufen 2026-02-07. [Online]. Available:
-  \url{https://de.wikipedia.org/wiki/World_Wide_Web_Consortium}
+{Wikipedia-Autor:innen}. (2026) World wide web consortium. Wikipedia. Deutsche Wikipedia, abgerufen 2026-02-07. [Online]. Available: \url{https://de.wikipedia.org/wiki/World_Wide_Web_Consortium}
+\BIBentrySTDinterwordspacing
+
+\bibitem{gathercole2004_working_memory}
+S.~E. Gathercole, S.~J. Pickering, B.~Ambridge, and H.~Wearing, ``The structure of working memory from 4 to 15 years of age,'' \emph{Developmental Psychology}, vol.~40, no.~2, pp. 177--190, 2004.
+
+\bibitem{kwon2022_finger_tapping}
+Y.~R. Kwon, J.~Ko, R.~H. Lee, G.~M. Eom, and J.~W. Kim, ``Age-related differences in the quantitative analysis of the finger tapping task,'' \emph{Technology and Health Care}, vol.~30, no.~3, pp. 623--635, 2022.
+
+\bibitem{thompson2014_over_the_hill_24}
+J.~J. Thompson, M.~R. Blair, and A.~J. Henrey, ``Over the hill at 24: Persistent age-related cognitive-motor decline in reaction times in an ecologically valid video game task begins in early adulthood,'' \emph{PLoS ONE}, vol.~9, no.~4, p. e94215, 2014.
+
+\bibitem{li2020_older_adults_mobile_usability}
+Q.~Li and Y.~Luximon, ``Older adults’ use of mobile device: usability challenges while navigating various interfaces,'' \emph{Behaviour \& Information Technology}, vol.~39, no.~8, pp. 837--861, 2020.
+
+\bibitem{amouzadeh2025_optimizing_mobile_app}
+E.~Amouzadeh, I.~Dianat, J.~Faradmal, and M.~Babamiri, ``Optimizing mobile app design for older adults: systematic review of age-friendly design,'' \emph{Aging Clinical and Experimental Research}, vol.~37, p. 248, 2025.
+
+\bibitem{cambridge_culture_definition}
+\BIBentryALTinterwordspacing
+{Cambridge Dictionary}. (2026) Culture. Cambridge University Press. [Online]. Available: \url{https://dictionary.cambridge.org/dictionary/english/culture}
+\BIBentrySTDinterwordspacing
+
+\bibitem{hofstede2001_cultures_consequences}
+G.~Hofstede, \emph{Culture's Consequences: Comparing Values, Behaviors, Institutions and Organizations Across Nations}, 2nd~ed.\hskip 1em plus 0.5em minus 0.4em\relax Sage Publications, 2001.
+
+\bibitem{makipaa2025_uncertainty_avoidance_ui}
+J.-P. Mäkipää, R.~A. Rousi, and M.~Vartiainen, ``Exploring effects of uncertainty avoidance in self-service technology user interface design in japan and finland,'' \emph{FAIA (Frontiers in Artificial Intelligence and Applications)}, vol. 241, pp. 152--160, 2025.
+
+\bibitem{singh2002_cultural_dimensions_global_ui}
+N.~Singh and A.~Pereira, ``Cultural dimensions and global web user interface design: What, so what, now what?'' \emph{Journal of Computer Information Systems}, vol.~42, no.~1, pp. 54--61, 2002.
+
+\bibitem{wikipedia_high_low_context}
+\BIBentryALTinterwordspacing
+{Wikipedia contributors}. (2026) High-context and low-context cultures. Wikimedia Foundation. [Online]. Available: \url{https://en.wikipedia.org/wiki/High-context_and_low-context_cultures}
+\BIBentrySTDinterwordspacing
+
+\bibitem{wikipedia_adaptive_user_interface}
+\BIBentryALTinterwordspacing
+------. (2026) Adaptive user interface. Wikipedia. [Online]. Available: \url{https://en.wikipedia.org/wiki/Adaptive_user_interface}
+\BIBentrySTDinterwordspacing
+
+\bibitem{geeksforgeeks_personalization_uiux_2023}
+\BIBentryALTinterwordspacing
+{GeeksforGeeks}. (2023, Nov.) Importance of personalization in ui/ux design. GeeksforGeeks. [Online]. Available: \url{https://www.geeksforgeeks.org/websites-apps/importance-of-personalization-in-ui-ux-design}
 \BIBentrySTDinterwordspacing
 
 \bibitem{apostol2024ux}
 \BIBentryALTinterwordspacing
-M.~Apostol. (2024, June) 12 ux best practises for mobile apps. HyperSense
-  Software. [Online]. Available:
-  \url{https://hypersense-software.com/blog/2024/06/19/12-ux-best-practices-for-mobile-apps/}
+M.~Apostol. (2024, June) 12 ux best practises for mobile apps. HyperSense Software. [Online]. Available: \url{https://hypersense-software.com/blog/2024/06/19/12-ux-best-practices-for-mobile-apps/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{goodlock_wikipedia}
 \BIBentryALTinterwordspacing
-{Wikipedia contributors}. (2025) Good lock --- wikipedia, the free
-  encyclopedia. Wikimedia Foundation. [Online]. Available:
-  \url{https://en.wikipedia.org/wiki/Good_Lock}
+{Wikipedia contributors}. (2025) Good lock --- wikipedia, the free encyclopedia. Wikimedia Foundation. [Online]. Available: \url{https://en.wikipedia.org/wiki/Good_Lock}
 \BIBentrySTDinterwordspacing
 
 \bibitem{goodlock_playstore}
 \BIBentryALTinterwordspacing
-{Samsung Electronics Co., Ltd.} (2025) Good lock --- apps on google play.
-  Google Play. [Online]. Available:
-  \url{https://play.google.com/store/apps/details?hl=en_IN&id=com.samsung.android.goodlock}
+{Samsung Electronics Co., Ltd.} (2025) Good lock --- apps on google play. Google Play. [Online]. Available: \url{https://play.google.com/store/apps/details?hl=en_IN&id=com.samsung.android.goodlock}
 \BIBentrySTDinterwordspacing
 
 \bibitem{androidcentral_goodlock_2025}
 \BIBentryALTinterwordspacing
-H.~Jonnalagadda. (2025, September) Samsung good lock: The ultimate guide to
-  customizing your galaxy phone. Android Central. [Online]. Available:
-  \url{https://www.androidcentral.com/samsung-good-lock}
+H.~Jonnalagadda. (2025, September) Samsung good lock: The ultimate guide to customizing your galaxy phone. Android Central. [Online]. Available: \url{https://www.androidcentral.com/samsung-good-lock}
 \BIBentrySTDinterwordspacing
 
 \bibitem{personalization_wikipedia}
 \BIBentryALTinterwordspacing
-{Wikipedia contributors}. (2025) Personalization --- wikipedia, the free
-  encyclopedia. Wikimedia Foundation. [Online]. Available:
-  \url{https://en.wikipedia.org/wiki/Personalization}
+{Wikipedia contributors}. (2025) Personalization --- wikipedia, the free encyclopedia. Wikimedia Foundation. [Online]. Available: \url{https://en.wikipedia.org/wiki/Personalization}
 \BIBentrySTDinterwordspacing
 
 \bibitem{nngroup_customization_personalization_2016}
 \BIBentryALTinterwordspacing
-{Nielsen Norman Group}. (2016, July) Customization vs. personalization in the
-  user experience. [Online]. Available:
-  \url{https://www.nngroup.com/articles/customization-personalization}
+{Nielsen Norman Group}. (2016, July) Customization vs. personalization in the user experience. [Online]. Available: \url{https://www.nngroup.com/articles/customization-personalization}
 \BIBentrySTDinterwordspacing
 
 \bibitem{algorithmic_curation_wikipedia}
 \BIBentryALTinterwordspacing
-{Wikipedia contributors}. (2026) Algorithmic curation --- wikipedia, the free
-  encyclopedia. Wikimedia Foundation. [Online]. Available:
-  \url{https://en.wikipedia.org/wiki/Algorithmic_curation}
+{Wikipedia contributors}. (2026) Algorithmic curation --- wikipedia, the free encyclopedia. Wikimedia Foundation. [Online]. Available: \url{https://en.wikipedia.org/wiki/Algorithmic_curation}
 \BIBentrySTDinterwordspacing
 
 \bibitem{recommender_system_wikipedia}
 \BIBentryALTinterwordspacing
-------. (2026) Recommender system --- wikipedia, the free encyclopedia.
-  Wikimedia Foundation. [Online]. Available:
-  \url{https://en.wikipedia.org/wiki/Recommender_system}
+------. (2026) Recommender system --- wikipedia, the free encyclopedia. Wikimedia Foundation. [Online]. Available: \url{https://en.wikipedia.org/wiki/Recommender_system}
 \BIBentrySTDinterwordspacing
 
 \bibitem{altexsoft_recommender_systems_personalization_2021}
 \BIBentryALTinterwordspacing
-{AltexSoft Editorial Team}. (2021, July) Recommender systems: Behind the scenes
-  of machine learning-based personalization. AltexSoft. [Online]. Available:
-  \url{https://www.altexsoft.com/blog/recommender-system-personalization}
+{AltexSoft Editorial Team}. (2021, July) Recommender systems: Behind the scenes of machine learning-based personalization. AltexSoft. [Online]. Available: \url{https://www.altexsoft.com/blog/recommender-system-personalization}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Understanding_the_design_process}
 \BIBentryALTinterwordspacing
-{Atlassian Editorial Team}. (2025, December) Understanding the design process:
-  A simple step-by-step guide. Atlassian. [Online]. Available:
-  \url{https://www.atlassian.com/agile/design/design-process}
+{Atlassian Editorial Team}. (2025, December) Understanding the design process: A simple step-by-step guide. Atlassian. [Online]. Available: \url{https://www.atlassian.com/agile/design/design-process}
 \BIBentrySTDinterwordspacing
 
 \bibitem{What_Does_a_Software_Developer_Do}
 \BIBentryALTinterwordspacing
-{geeksforgeeks Editorial Team}. (2024, January) What does a software developer
-  do? geeksforgeeks. [Online]. Available:
-  \url{https://www.geeksforgeeks.org/software-engineering/what-does-a-software-developer-do/}
+{geeksforgeeks Editorial Team}. (2024, January) What does a software developer do? geeksforgeeks. [Online]. Available: \url{https://www.geeksforgeeks.org/software-engineering/what-does-a-software-developer-do/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Requirements_Engineering_Process_in_Software_Engineering}
 \BIBentryALTinterwordspacing
-------. (2026, January) Requirements engineering process in software
-  engineering. geeksforgeeks. [Online]. Available:
-  \url{https://www.geeksforgeeks.org/software-engineering/software-engineering-requirements-engineering-process/}
+------. (2026, January) Requirements engineering process in software engineering. geeksforgeeks. [Online]. Available: \url{https://www.geeksforgeeks.org/software-engineering/software-engineering-requirements-engineering-process/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Stakeholders_in_Requirements_Engineering}
-R.~J.~W. Martin~Glinz, ``Stakeholders in requirements engineering,'' \emph{IEEE
-  Software}, vol.~24, no.~2, pp. 18--19, 2007.
+R.~J.~W. Martin~Glinz, ``Stakeholders in requirements engineering,'' \emph{IEEE Software}, vol.~24, no.~2, pp. 18--19, 2007.
 
 \bibitem{Use_of_personas_in_Requirements_Engineering}
-D.~Karolita, J.~McIntosh, T.~Kanij, J.~Grundy, and H.~O. Obie, ``Use of
-  personas in requirements engineering: A systematic mapping study,''
-  \emph{Information and Software Technology}, vol. 162, no. 107264, 2023.
+D.~Karolita, J.~McIntosh, T.~Kanij, J.~Grundy, and H.~O. Obie, ``Use of personas in requirements engineering: A systematic mapping study,'' \emph{Information and Software Technology}, vol. 162, no. 107264, 2023.
 
 \bibitem{Use_Cases_for_Design_Personas}
-J.~Salminen, K.~W. Guan, S.-G. Jung, and B.~J. Jansen, ``Use cases for design
-  personas: A systematic review and newfrontiers,'' in \emph{Proceedings of the
-  2022 CHI Conference on Human Factors in Computing Systems}, 2022.
+J.~Salminen, K.~W. Guan, S.-G. Jung, and B.~J. Jansen, ``Use cases for design personas: A systematic review and newfrontiers,'' in \emph{Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems}, 2022.
 
 \bibitem{Who_uses_personas_in_requirements_engineering}
-Y.~Wang, C.~Arora, X.~Liu, T.~Hoang, V.~Malhotra, B.~Cheng, and J.~Grundy,
-  ``Who uses personas in requirements engineering: The practitioners’
-  perspective,'' \emph{Information and Software Technology}, vol. 178, no.
-  107609, 2025.
+Y.~Wang, C.~Arora, X.~Liu, T.~Hoang, V.~Malhotra, B.~Cheng, and J.~Grundy, ``Who uses personas in requirements engineering: The practitioners’ perspective,'' \emph{Information and Software Technology}, vol. 178, no. 107609, 2025.
 
 \bibitem{Why_and_How_to_Use_Demographics_in_UX}
 \BIBentryALTinterwordspacing
-S.~Tankala. (2022, November) Why and how to use demographics in ux. NN/GROUP.
-  [Online]. Available:
-  \url{https://www.nngroup.com/articles/demographics-in-ux/}
+S.~Tankala. (2022, November) Why and how to use demographics in ux. NN/GROUP. [Online]. Available: \url{https://www.nngroup.com/articles/demographics-in-ux/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{huang2024}
-Y.~Huang, ``Generating user experience based on personas with ai assistants,''
-  in \emph{Proceedings of the 2024 IEEE/ACM 46th International Conference on
-  Software Engineering: Companion Proceedings}, 2024, pp. 181--183.
+Y.~Huang, ``Generating user experience based on personas with ai assistants,'' in \emph{Proceedings of the 2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings}, 2024, pp. 181--183.
 
 \bibitem{winter2025design}
-T.~Winter, A.~SunshineTombs, and A.~Deemar, ``Designing personalized user
-  interfaces using artificial intelligence-driven behavioral analysis for
-  enhanced user experience,'' 2025.
+T.~Winter, A.~SunshineTombs, and A.~Deemar, ``Designing personalized user interfaces using artificial intelligence-driven behavioral analysis for enhanced user experience,'' 2025.
 
 \bibitem{amershi2019}
-S.~Amershi, D.~Weld, M.~Vorvoreanu \emph{et~al.}, ``Guidelines for human-ai
-  interaction,'' in \emph{Proceedings of the 2019 CHI Conference on Human
-  Factors in Computing Systems}, 2019.
+S.~Amershi, D.~Weld, M.~Vorvoreanu \emph{et~al.}, ``Guidelines for human-ai interaction,'' in \emph{Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems}, 2019.
 
 \bibitem{winter2025analysis}
-T.~Winter, A.~Okunola, and A.~Deemar, ``Designing personalized user interfaces
-  using artificial intelligence-driven behavioral analysis for enhanced user
-  experience,'' 2025.
+T.~Winter, A.~Okunola, and A.~Deemar, ``Designing personalized user interfaces using artificial intelligence-driven behavioral analysis for enhanced user experience,'' 2025.
 
 \bibitem{fuselab2024}
-{FuseLab Creative}, ``The future of ai-constructed design,''
-  \url{https://fuselabcreative.com/the-future-of-ai-constructed-design/}, 2024.
+{FuseLab Creative}, ``The future of ai-constructed design,'' \url{https://fuselabcreative.com/the-future-of-ai-constructed-design/}, 2024.
 
 \bibitem{Smith2020}
-J.~Smith and J.~Doe, ``An example study on latex,'' \emph{Journal of Examples},
-  vol.~10, no.~2, pp. 12--34, 2020.
+J.~Smith and J.~Doe, ``An example study on latex,'' \emph{Journal of Examples}, vol.~10, no.~2, pp. 12--34, 2020.
 
 \bibitem{pruitt2003personas}
-J.~Pruitt and J.~Grudin, ``Personas: practice and theory,'' in
-  \emph{Proceedings of the 2003 conference on Designing for user experiences},
-  2003, pp. 1--15.
+J.~Pruitt and J.~Grudin, ``Personas: practice and theory,'' in \emph{Proceedings of the 2003 conference on Designing for user experiences}, 2003, pp. 1--15.
 
 \bibitem{mitchell2019}
-M.~Mitchell, S.~Wu, A.~Zaldivar \emph{et~al.}, ``Model cards for model
-  reporting,'' in \emph{Proceedings of the Conference on Fairness,
-  Accountability, and Transparency (FAT*)}, 2019.
+M.~Mitchell, S.~Wu, A.~Zaldivar \emph{et~al.}, ``Model cards for model reporting,'' in \emph{Proceedings of the Conference on Fairness, Accountability, and Transparency (FAT*)}, 2019.
+
+\bibitem{gathercole2004_pubmed}
+\BIBentryALTinterwordspacing
+S.~E. Gathercole, S.~J. Pickering, B.~Ambridge, and H.~Wearing. (2004) The structure of working memory from 4 to 15 years of age. PubMed Central. Developmental Psychology journal article; DOI: 10.1037/0012-1649.40.2.177. [Online]. Available: \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC12085112/}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}
